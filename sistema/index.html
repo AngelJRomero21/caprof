@@ -536,7 +536,7 @@ var user; // Declara la variable globalmente
 function validarLogin() {
   var cedulaUsuario = document.getElementById("cedulaUsuario").value;
   var ultimosCuatro = document.getElementById("ultimosCuatro").value;
-  fetch('https://redlinuxclick.com/demo/datos.json')
+  fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
     .then(response => {
       if (!response.ok) {
         throw new Error('Error al cargar el archivo JSON');
