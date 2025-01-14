@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: 'Montserrat', sans-serif;
@@ -67,6 +68,21 @@
         .nav-link:hover{
             color: lightgray !important;
         }
+        .social-icons a {
+            margin: 0 5px;
+            color: white; /* Color de los iconos */
+            font-size: 1.5em; /* Tamaño de los iconos */
+        }
+        .social-icons a:hover{
+            color: lightgray;
+        }
+        .pdf-list{
+            list-style-type: none;
+            padding: 0;
+        }
+        .pdf-list li{
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -79,13 +95,25 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#informacion">¿Quiénes Somos?</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comunicados">Comunicados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sistema-online">Sistema</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#direccion">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light" href="#">Acceso/Login</a>
                     </li>
                 </ul>
             </div>
@@ -104,32 +132,104 @@
             <p><strong>Visión:</strong> Ser una Caja de Ahorros líder y modelo para otras instituciones afines a nivel nacional, con reconocimiento social, capaz de responder estratégicamente a las expectativas de sus asociados, dirigiendo la administración de sus recursos de manera efectiva, en beneficio del bien común de todos los integrantes de esta organización, a través de la diversificación de su cartera de créditos, beneficios varios, formando alianzas estratégicas con instituciones financieras y sociales semejantes.</p>
         </section>
 
-        <section id="direccion">
-            <h2>Contáctanos</h2>
-            <p><strong>Dirección:</strong> Av. 6 entre calles 21 y 22, Edificio Guida, Planta Baja, Local 3, Valera, Trujillo, Venezuela</p>
-            <p><strong>Teléfono:</strong> (0271) 231-1201</p>
-            <p><strong>Correo:</strong> caprofuptet@gmail.com</p>
-        </section>
+        <br>
 
-        <section id="galeria" class="galeria-imagenes">
-            <h2>Nuestra Galería</h2>
+    <main class="container">
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <img src="https://i.imgur.com/akC60rN.jpeg" alt="Imagen 1" class="img-fluid">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Caja de ahorros</h5>
+                            <p class="card-text">Servicios de caja de ahorros para profesores de la UPTTMBI.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="https://i.imgur.com/Pub7n31.jpeg" alt="Imagen 2" class="img-fluid">
+                 <br>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Ahorros sistemáticos</h5>
+                            <p class="card-text">Planes de ahorro adaptados a tus necesidades.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="https://i.imgur.com/Y5dZpeR.jpeg" alt="Imagen 3" class="img-fluid">
+                <br>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Apoyo financiero a medida</h5>
+                            <p class="card-text">Soluciones financieras personalizadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Planes de financiamiento</h5>
+                            <p class="card-text">Opciones de financiamiento disponibles.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+<br>
+        <section id="comunicados">
+            <h2>Comunicados Importantes</h2>
+            <ul class="pdf-list">
+                <li><a href="comunicado1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Comunicado sobre Asamblea General</a></li>
+                <li><a href="comunicado2.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Información sobre Nuevos Beneficios</a></li>
+                </ul>
+        </section>
+        <br>
+        <section id="sistema-online">
+            <h2>Sistema Online</h2>
+            <p>Aquí se explicará el funcionamiento del sistema online, acceso, beneficios, etc.</p>
+        </section>
     </main>
 
+    <br>
+
+    <section id="direccion">
+        <h2>Contáctanos</h2>
+        <p><strong>Dirección:</strong> Av. 6 entre calles 21 y 22, Edificio Guida, Planta Baja, Local 3, Valera, Trujillo, Venezuela</p>
+        <p><strong>Teléfono:</strong> (0271) 231-1201</p>
+        <p><strong>Correo:</strong> caprofuptet@gmail.com</p>
+    </section>
+    
+    <section id="galeria" class="galeria-imagenes">
+        <h2>Nuestra Galería</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://i.imgur.com/akC60rN.jpeg" alt="Imagen 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://i.imgur.com/Pub7n31.jpeg" alt="Imagen 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://i.imgur.com/Y5dZpeR.jpeg" alt="Imagen 3" class="img-fluid">
+            </div>
+        </div>
+    </section>
+</main>
+
     <footer class="text-center">
-        <p>&copy; 2025 (CAPROFUPTET), RIF J-30339150-8. Todos los derechos reservados.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 (CAPROFUPTET), RIF J-30339150-8. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-end social-icons">
+                    <a href="https://www.instagram.com/caprofuptet/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="wa.me/584129899556" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
