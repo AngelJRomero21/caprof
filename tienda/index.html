@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Virtual</title>
+    <style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.title {
+  color: #003366;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.buy-btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+  <header>
+    <h1 class="title">Catálogo de Productos</h1>
+  </header>
+  <main>
+    <div id="catalog" class="catalog"></div>
+  </main>
+
+  <!-- Modal para Detalles del Producto -->
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <img id="modalImage" src="" alt="Producto">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <p id="modalPrice"></p>
+      <button id="buyButton" class="buy-btn">Comprar</button>
+    </div>
+  </div>
+
+  <!-- Formulario de Compra -->
+  <div id="purchaseForm" class="modal">
+    <div class="modal-content">
+      <span id="closeForm" class="close">&times;</span>
+      <h2>Formulario de Compra</h2>
+      <form id="purchaseData" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="cedula">Número de Cédula:</label>
+        <input type="text" id="cedula" name="cedula" required>
+
+        <p>Precio de Venta: <span id="salePrice"></span></p>
+        <label for="initial">Monto Inicial (30%):</label>
+        <input type="number" id="initial" name="initial" min="0" step="0.01" required>
+        <label for="additionalInitial">¿Desea aumentar la inicial?</label>
+        <input type="number" id="additionalInitial" name="additionalInitial" min="0" step="0.01">
+
+        <p>Fondo de Protección Financiera: <span id="protectionFund"></span></p>
+        <p>Monto Total de Financiamiento: <span id="totalFinancing"></span></p>
+        <label for="months">Meses de Financiación (1-5):</label>
+        <input type="number" id="months" name="months" min="1" max="5" required>
+
+        <p>Cuota Mensual: <span id="monthlyQuota"></span></p>
+        <p>Cuota Quincenal: <span id="biweeklyQuota"></span></p>
+
+        <button type="submit" class="submit-btn">Comprar</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+
+const catalog = document.getElementById("catalog");
+const modal = document.getElementById("productModal");
+const closeModal = document.getElementById("closeModal");
+const purchaseForm = document.getElementById("purchaseForm");
+const closeForm = document.getElementById("closeForm");
+
+// Load JSON Data
+fetch("/demo/equipos_financiados.json")
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(product => {
+      const card = document.createElement("div");
+      card.classList.add("card");
+      card.innerHTML = `
+        <img src="${product.image_url}" alt="${product.producto}">
+        <h3>${product.producto}</h3>
+        <p>Precio: $${product.precio_venta_con_30_por_ciento}</p>
+        <button class="buy-btn" onclick="showModal(${JSON.stringify(product).replace(/"/g, '&quot;')})">Ver Producto</button>
+      `;
+      catalog.appendChild(card);
+    });
+  });
+
+// Show Modal
+function showModal(product) {
+  modal.style.display = "flex";
+  document.getElementById("modalImage").src = product.image_url;
+  document.getElementById("modalTitle").textContent = product.producto;
+  document.getElementById("modalDescription").textContent = product.descripcion;
+  document.getElementById("modalPrice").textContent = `Precio: $${product.precio_venta_con_30_por_ciento}`;
+  document.getElementById("buyButton").onclick = () => showForm(product);
+}
+
+// Show Purchase Form
+function showForm(product) {
+  modal.style.display = "none";
+  purchaseForm.style.display = "flex";
+
+  // Mostrar datos iniciales
+  const salePrice = product.precio_venta_con_30_por_ciento;
+  const protectionFund = product.fondo_proteccion_financiera;
+  const initial = product.inicial;
+
+  document.getElementById("salePrice").textContent = `$${salePrice.toFixed(2)}`;
+  document.getElementById("protectionFund").textContent = `$${protectionFund.toFixed(2)}`;
+  document.getElementById("initial").value = initial.toFixed(2);
+
+  // Variables de formulario
+  const initialInput = document.getElementById("initial");
+  const additionalInitialInput = document.getElementById("additionalInitial");
+  const monthsInput = document.getElementById("months");
+  const totalFinancingElement = document.getElementById("totalFinancing");
+  const monthlyQuotaElement = document.getElementById("monthlyQuota");
+  const biweeklyQuotaElement = document.getElementById("biweeklyQuota");
+
+  // Actualizar cálculo en tiempo real
+  function updateCalculations() {
+    const initialAmount = parseFloat(initialInput.value) || 0;
+    const additionalInitial = parseFloat(additionalInitialInput.value) || 0;
+
+    // Asegurar que la inicial aumentada no sea menor a la inicial base
+    const validAdditionalInitial = Math.max(additionalInitial, 0);
+    additionalInitialInput.value = validAdditionalInitial.toFixed(2);
+
+    const totalInitial = initialAmount + validAdditionalInitial;
+    const totalFinancing = salePrice - totalInitial + protectionFund;
+
+    const months = Math.max(1, Math.min(parseInt(monthsInput.value) || 1, 5));
+    monthsInput.value = months;
+
+    const monthlyQuota = totalFinancing / months;
+    const biweeklyQuota = monthlyQuota / 2;
+
+    // Mostrar cálculos
+    totalFinancingElement.textContent = `$${totalFinancing.toFixed(2)}`;
+    monthlyQuotaElement.textContent = `$${monthlyQuota.toFixed(2)}`;
+    biweeklyQuotaElement.textContent = `$${biweeklyQuota.toFixed(2)}`;
+  }
+
+  // Listeners para actualizar cálculos
+  initialInput.addEventListener("input", updateCalculations);
+  additionalInitialInput.addEventListener("input", updateCalculations);
+  monthsInput.addEventListener("input", updateCalculations);
+
+  // Realizar cálculo inicial
+  updateCalculations();
+}
+
+
+
+  </script>
+
+</body>
+</html>
