@@ -1,0 +1,49 @@
+[
+  {
+    "user": {
+      "cedula": "00347244",
+      "cuenta-principal": 1.0824044401000018e+18,
+      "numeroafiliado": "0",
+      "cuenta-secundaria": "0",
+      "nombre": "LOPEZ, LUIS ECHETO",
+      "fecha-ingreso": "0",
+      "correo-electronico": "0",
+      "telefono1": "0",
+      "telefono2": "0",
+      "ahorro-voluntario": "0.0",
+      "cuota-mensual": "0",
+      "ahorro-estatutario": "0",
+      "equipos-financiados": "0",
+      "monto-equipo-financiado": "0",
+      "fecha-solicitud-equipo": "0",
+      "cuotas-equipo-financiado": "0",
+      "saldo-pendiente-equipo": "",
+      "monto-cuota-equipo": "",
+      "credito-estatutario": "0",
+      "cuotas-estatutario": "0",
+      "fecha-solicitud-estatutario": "0",
+      "saldo-pendiente-estatutario": "",
+      "monto-cuota-estatutario": "",
+      "credito-fav": "0",
+      "fecha-solicitud-fav": "0",
+      "cuotas-fav": "0",
+      "monto-cuota-fav": "",
+      "saldo-pendiente-fav": "",
+      "empresa-funeraria": "",
+      "couta-mensual-funeraria-dolares": "",
+      "couta-quincenal-funeraria-bolivares": "",
+      "monto-cuota-montepio": "",
+      "monto-cuota-mutuo-auxilio": "",
+      "cuota-aporte-extraordinario-mensual": "",
+      "nombre-cooperativa": "",
+      "monto-cooperativa": "",
+      "fecha-inicio-cooperativa": "",
+      "cuotas-cooperativa": "",
+      "cuota-mensual-cooperativa":"",
+
+      "image": {
+        "url": "image.png"
+      }
+    }
+  }
+]
