@@ -536,7 +536,7 @@ p.saludo {
             </div>   
         </div>
         <div class="img-izq">
-            <img src="https://i.imgur.com/he5jk49.jpeg" alt="Fondo">
+            <img src="https://i.imgur.com/Pub7n31.jpeg" alt="Fondo">
         </div>
     </div>
     <script>
@@ -678,6 +678,24 @@ var nombreUsuario = user.user["nombre"];
             <label for="calculatedAmount">Disponible:</label>
             <input type="text" id="calculatedAmount" name="Monto" readonly>
             <input type="hidden" id="userId" name="Cedula de Identidad" readonly>
+
+            <!-- Selección de meses -->
+            <label for="months">Seleccione los meses:</label>
+            <select id="months" name="Meses" onchange="calculateInstallments()">
+                <option value="1">1 mes</option>
+                <option value="2">2 meses</option>
+                <option value="3">3 meses</option>
+                <option value="4">4 meses</option>
+                <option value="5">5 meses</option>
+                <option value="6">6 meses</option>                
+            </select>
+
+            <!-- Mostrar cuota mensual y quincenal -->
+            <label for="monthlyQuota">Cuota Mensual:</label>
+            <input type="text" id="monthlyQuota" name="Cuota Mensual" readonly>
+            <label for="biweeklyQuota">Cuota Quincenal:</label>
+            <input type="text" id="biweeklyQuota" name="Cuota Quincenal" readonly>
+            
             <button type="submit">Enviar Solicitud</button>
         </form>
     </div>
@@ -735,6 +753,7 @@ function toggleExtraButtons() {
     const extraButtons = document.getElementById('extraButtons');
     extraButtons.classList.toggle('hidden');
 }
+// Mostrar el formulario con los datos del usuario
 function showForm(creditType, user) {
     if (!user || !user.user) {
         console.error("El objeto 'user' no está definido o no contiene la información necesaria.");
@@ -745,30 +764,43 @@ function showForm(creditType, user) {
     const creditTypeField = document.getElementById('creditType');
     const calculatedAmountField = document.getElementById('calculatedAmount');
     const userIdField = document.getElementById('userId');
-    // Extraer saldo estatutario y número de cédula del usuario autenticado
+
     const saldoestatutario = parseFloat(user.user["ahorro-estatutario"]).toFixed(2);
     const afiliado = user.user["cedula"];
-    // Establecer el título del formulario
     formTitle.textContent = 'Solicitud: ' + creditType;
-    // Configurar los campos según el tipo de crédito
     creditTypeField.value = creditType;
+
     if (creditType === '80% Haberes') {
-        // Calcular el 80% del saldo estatutario
         const amount = (saldoestatutario * 0.8).toFixed(2);
-        calculatedAmountField.value = amount; // Mostrar el monto en el formulario
+        calculatedAmountField.value = amount;
     } else {
-        calculatedAmountField.value = ''; // Limpia el campo si no es 80% Haberes
+        calculatedAmountField.value = '';
     }
-    // Establecer el número de cédula
+
     userIdField.value = afiliado;
-    // Mostrar el modal
     modal.style.display = 'flex';
+
+    // Inicializar cuotas al mostrar el formulario
+    calculateInstallments();
 }
+
+// Calcular cuota mensual y quincenal
+function calculateInstallments() {
+    const calculatedAmount = parseFloat(document.getElementById('calculatedAmount').value) || 0;
+    const months = parseInt(document.getElementById('months').value) || 6;
+    const totalAmount = calculatedAmount * 1.12; // Aplicar el 12% adicional
+    const monthlyQuota = (totalAmount / months).toFixed(2);
+    const biweeklyQuota = (monthlyQuota / 2).toFixed(2);
+
+    document.getElementById('monthlyQuota').value = `Bs ${monthlyQuota}`;
+    document.getElementById('biweeklyQuota').value = `Bs ${biweeklyQuota}`;
+}
+
 // Cerrar el modal
 function closeModal() {
     const modal = document.getElementById('modal');
     modal.style.display = 'none';
-}      
+}
 document.addEventListener("DOMContentLoaded", () => {
       // Mostrar el formulario si cumple con los requisitos
       window.showFavForm = function () {
