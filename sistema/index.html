@@ -476,7 +476,6 @@ p.saludo {
     font-size: 30px;
     cursor: pointer;
 }
-
 /* Botones extra */
 .hidden {
     display: none;
@@ -490,8 +489,6 @@ p.saludo {
             background: rgba(0, 0, 0, 0.5); 
             z-index: 999; 
         }
-
-
  /* Estilos del modal */
     .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.5); }
     .modal-content { background-color: white; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 8px; position: relative; }
@@ -511,7 +508,7 @@ p.saludo {
              <div class="formloginusr">
                 <!-- formulario -->
                 <form class="form_main" action="" onsubmit="return validarLogin()">
-                    <img class="logo" src="https://i.imgur.com/F42aMJ4.png" alt="Logo CAES">
+                    <img class="logo" src="https://i.imgur.com/AlOKrDB.png" alt="Logo CAES">
                     <div class="inputContainer">
                         <svg viewBox="0 0 24 24" height="16" width="16" class="inputIcon" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3 5C2.44772 5 2 5.44771 2 6V18C2 18.5523 2.44772 19 3 19H21C21.5523 19 22 18.5523 22 18V6C22 5.44772 21.5523 5 21 5H3ZM0 6C0 4.34315 1.34314 3 3 3H21C22.6569 3 24 4.34315 24 6V18C24 19.6569 22.6569 21 21 21H3C1.34315 21 0 19.6569 0 18V6ZM6 10.5C6 9.67157 6.67157 9 7.5 9C8.32843 9 9 9.67157 9 10.5C9 11.3284 8.32843 12 7.5 12C6.67157 12 6 11.3284 6 10.5ZM10.1756 12.7565C10.69 12.1472 11 11.3598 11 10.5C11 8.567 9.433 7 7.5 7C5.567 7 4 8.567 4 10.5C4 11.3598 4.31002 12.1472 4.82438 12.7565C3.68235 13.4994 3 14.7069 3 16C3 16.5523 3.44772 17 4 17C4.55228 17 5 16.5523 5 16C5 15.1145 5.80048 14 7.5 14C9.19952 14 10 15.1145 10 16C10 16.5523 10.4477 17 11 17C11.5523 17 12 16.5523 12 16C12 14.7069 11.3177 13.4994 10.1756 12.7565ZM13 8C12.4477 8 12 8.44772 12 9C12 9.55228 12.4477 10 13 10H19C19.5523 10 20 9.55228 20 9C20 8.44772 19.5523 8 19 8H13ZM14 12C13.4477 12 13 12.4477 13 13C13 13.5523 13.4477 14 14 14H18C18.5523 14 19 13.5523 19 13C19 12.4477 18.5523 12 18 12H14Z" fill="#000000"></path> </g></svg>
                     <input placeholder="Cedula" id="cedulaUsuario" name="cedulaUsuario" class="inputField" type="text" required>
@@ -585,11 +582,11 @@ function mostrarResultado(user) {
   var cuotamensual = parseFloat(user.user["cuota-mensual"]).toFixed(2);
   var afiliado = user.user["numero-afiliado"];
   var fechaIngreso = user.user["fecha-ingreso"];
-  var fechaIngresoFormateada = new Date(fechaIngreso);
-  var dia = fechaIngresoFormateada.getDate();
-  var mes = fechaIngresoFormateada.getMonth() + 1; 
-  var año = fechaIngresoFormateada.getFullYear();
-  var fechaIngresoStr = dia + "/" + mes + "/" + año
+var fechaIngresoFormateada = new Date(fechaIngreso);
+var dia = fechaIngresoFormateada.getDate();
+var mes = fechaIngresoFormateada.getMonth() + 1; 
+var año = fechaIngresoFormateada.getFullYear();
+var fechaIngresoStr = dia + "/" + mes + "/" + año
 var equiposFinanciados = user.user["equipos-financiados"];
 var montoEquipoFinanciado = parseFloat(user.user["monto-equipo-financiado"]).toFixed(2);
 var fechaSolicitudEquipo = user.user["fecha-solicitud-equipo"];
@@ -616,11 +613,9 @@ var mesFav = fechaSolicitudFavFormateada.getMonth() + 1;
 var añoFav = fechaSolicitudFavFormateada.getFullYear();
 var fechaSolicitudFavStr = diaFav + "/" + mesFav + "/" + añoFav;
 var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
-
-  var nombreUsuario = user.user["nombre"]; 
-         
+var nombreUsuario = user.user["nombre"]; 
           var resultadoHTML = `
-          <img src="${user.user.image.url}" alt="Imagen de perfil">
+          <img src="https://cdn-icons-png.flaticon.com/512/1611/1611261.png" alt="Imagen de perfil">
             <p class="saludo">${saludo} <div class="nombre">${nombreUsuario}</div></p>
             <div class="walletBalanceCard">
   <div class="balancewrapper">
@@ -631,7 +626,7 @@ var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
 <br>
   <div class="walletBalanceCard">
         <div class="balanceHeading">Ahorro Voluntario (Cuota Mensual: $${cuotamensual})</div>
-        <div class="balance"><span id="currency">Bs </span>${saldovoluntario}</div>
+        <div class="balance"><span id="currency">$</span>${saldovoluntario}</div>
     </div>
     <br>
     <div class="walletBalanceCard">
@@ -672,14 +667,13 @@ var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
             <!-- Campo para el tipo de crédito -->
             <input type="hidden" id="creditType" name="Tipo de Credito" readonly>
             <!-- Campo para el monto calculado -->
-            <label for="calculatedAmount">Monto 80%:</label>
+            <label for="calculatedAmount">Disponible:</label>
             <input type="text" id="calculatedAmount" name="Monto" readonly>
             <input type="hidden" id="userId" name="Cedula de Identidad" readonly>
             <button type="submit">Enviar Solicitud</button>
         </form>
     </div>
 </div>
-
  <!-- Modal del formulario -->
   <div id="favFormModal" class="modal hidden">
     <div class="modal-content">
@@ -691,22 +685,18 @@ var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
           <input type="hidden" name="_next" value="https://tudominio.co/gracias.html">
         <h3>Solicitud Crédito F.A.V</h3>
         <input type="hidden" id="cedula" name="cedula" readonly />
-
         <label for="monto">Monto a solicitar ($):</label>
         <input type="number" id="monto" name="monto" min="1" max="160" required/>
-
         <label for="tipoPago">Forma de Pago:</label>
         <select id="tipoPago" name="tipoPago" required onchange="updatePaymentOptions()">
           <option value="" disabled selected>Seleccione una opción</option>
           <option value="mensual">Mensualmente</option>
           <option value="quincenal">Quincenalmente</option>
         </select>
-
         <label for="plazo">Plazo (meses/quincenas):</label>
         <select id="plazo" name="plazo" required onchange="calcularFav()">
           <!-- Opciones generadas dinámicamente -->
         </select>
-
         <div>
   <p>Interés por Cobrar (3% mensual): <span id="interesCobrar">$0.00</span></p>
   <p>Gastos Bancarios por entrega (3%): <span id="gastosBancarios">$0.00</span></p>
@@ -716,12 +706,10 @@ var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
   <p>Gastos Administrativos (2%): <span id="gastosAdministrativos">$0.00</span></p>
   <p>Total a Pagar: <span id="totalPagar">$0.00</span></p>
 </div>
-
         <button type="submit">Enviar Solicitud</button>
       </form>
     </div>
   </div>
-
   <!-- Modal de error -->
   <div id="favErrorModal" class="modal hidden">
     <div class="modal-content error">
@@ -780,53 +768,41 @@ document.addEventListener("DOMContentLoaded", () => {
           console.error("El objeto 'user' no está definido.");
           return;
         }
-
   const fechaIngreso = user.user["fecha-ingreso"]; // Ejemplo: "2023-06-01"
-  
   // Convertir la fecha a formato correcto
   const fechaIngresoFormateada = new Date(fechaIngreso); // Convierte "YYYY-MM-DD" a un objeto Date
-  
   // Extraer día, mes y año del objeto Date
   const dia = fechaIngresoFormateada.getDate();
   const mes = fechaIngresoFormateada.getMonth() + 1; // Mes es 0 indexado
   const año = fechaIngresoFormateada.getFullYear();
-  
   // Crear una fecha con formato legible (opcional, pero no afecta el cálculo)
   const fechaIngresoStr = dia + "/" + mes + "/" + año;
   console.log("Fecha de ingreso formateada:", fechaIngresoStr); // Verificar formato
-
   // Calcular la antigüedad en meses
   const fechaActual = new Date();
   const diferenciaMeses = (fechaActual.getFullYear() - año) * 12 + (fechaActual.getMonth() - (mes - 1));
-
   if (diferenciaMeses < 6) {
     document.getElementById("favErrorModal").classList.remove("hidden");
     document.getElementById("favErrorModal").style.display = "block";
     return;
   }
-
         const cedulaInput = document.getElementById("cedula");
         cedulaInput.value = user.user["cedula"]; // Establecer la cédula automáticamente
-
         const favFormModal = document.getElementById("favFormModal");
         favFormModal.classList.remove("hidden");
         favFormModal.style.display = "block";
       };
-
       // Cerrar el modal
       window.closeForm = function (id) {
         const modal = document.getElementById(id);
         modal.classList.add("hidden");
         modal.style.display = "none";
       };
-
       // Actualizar las opciones de plazo
       window.updatePaymentOptions = function () {
         const tipoPago = document.getElementById("tipoPago").value;
         const plazoSelect = document.getElementById("plazo");
-
         plazoSelect.innerHTML = ""; // Limpiar opciones anteriores
-
         if (tipoPago === "mensual") {
           for (let i = 1; i <= 8; i++) {
             const option = document.createElement("option");
@@ -844,19 +820,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       };
     });
-
 // Función para calcular los valores al hacer clic en "Calcular"
 function calcularFav() {
   const monto = parseFloat(document.getElementById("monto").value);
   const tipoPago = document.getElementById("tipoPago").value;
   const plazo = parseInt(document.getElementById("plazo").value);
-
   // Validar monto
   if (isNaN(monto) || monto < 1 || monto > 160) {
     alert("El monto debe estar entre 1$ y 160$.");
     return;
   }
-
   // Calcular meses según el tipo de pago
   let meses = 0;
   if (tipoPago === "mensual") {
@@ -864,7 +837,6 @@ function calcularFav() {
   } else if (tipoPago === "quincenal") {
     meses = Math.ceil(plazo / 2); // Convertir quincenas a meses (dividiendo entre 2)
   }
-
   // Calcular los cargos
   const interesCobrar = monto * 0.03 * meses; // Interés mensual
   const gastosBancarios = monto * 0.03;
@@ -872,10 +844,8 @@ function calcularFav() {
   const fondoProteccion = monto * 0.03;
   const fondoGarantia = 2; // Fondo de garantía fijo
   const gastosAdministrativos = monto * 0.02;
-
   // Calcular el total a pagar
   const totalPagar = monto + interesCobrar + gastosBancarios + gastosDomiciliacion + fondoProteccion + fondoGarantia + gastosAdministrativos;
-
   // Mostrar los resultados en el HTML
   document.getElementById("interesCobrar").textContent = `$${interesCobrar.toFixed(2)}`;
   document.getElementById("gastosBancarios").textContent = `$${gastosBancarios.toFixed(2)}`;
@@ -885,13 +855,9 @@ function calcularFav() {
   document.getElementById("gastosAdministrativos").textContent = `$${gastosAdministrativos.toFixed(2)}`;
   document.getElementById("totalPagar").textContent = `$${totalPagar.toFixed(2)}`;
 }
-
-
 function tiendaVirtual() {
             window.location.href = "/tienda/"; // URL de la página a la que quieres ir
         }
-
-
 </script>
         <script>
             const formulario = document.querySelector('.formloginusr');
