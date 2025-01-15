@@ -2,13 +2,16 @@
     {
         "user": {
             "cedula": "347244",
-            "nombre": "LUIS ECHETO  LOPEZ",
+            "nombre": "LUIS ECHETO LOPEZ",
             "cuenta-principal": "01082404440100001775",
             "nucleo": "SAN LUIS",
             "empresa-funeraria": "SOVENPFA",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -19,7 +22,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -33,7 +39,10 @@
             "telefono-2": "02712442792",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -46,7 +55,10 @@
             "telefono-1": "04147299970",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -57,7 +69,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -68,7 +83,10 @@
             "nucleo": "TRUJILLO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -79,7 +97,10 @@
             "nucleo": "DIVIDIVE",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -92,7 +113,10 @@
             "telefono-1": "04122884594",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -103,7 +127,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -116,7 +143,10 @@
             "cuota-quincenal-funeraria-bolivares": "245.34",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -127,7 +157,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -145,7 +178,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -156,7 +192,10 @@
             "nucleo": "TRUJILLO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -169,7 +208,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -180,7 +222,10 @@
             "nucleo": "DIVIDIVE",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -202,7 +247,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -213,7 +261,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -226,7 +277,10 @@
             "ahorro-voluntario": "20.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -237,7 +291,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -248,7 +305,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -259,7 +319,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -273,7 +336,10 @@
             "telefono-2": "02712316405",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -287,7 +353,10 @@
             "telefono-2": "04262785893",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -303,7 +372,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -314,7 +386,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -327,7 +402,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -341,7 +419,10 @@
             "telefono-2": "027112313805",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -358,7 +439,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -369,7 +453,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -385,7 +472,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -396,7 +486,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -407,7 +500,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -420,7 +516,10 @@
             "cuota-quincenal-funeraria-bolivares": "259.26",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -431,7 +530,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -442,7 +544,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -462,7 +567,10 @@
             "cuota-quincenal-funeraria-bolivares": "223.30",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -476,7 +584,10 @@
             "telefono-2": "02742712720",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -495,7 +606,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -506,7 +620,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -522,7 +639,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -536,7 +656,10 @@
             "telefono-2": "02712317524",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -547,7 +670,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -558,7 +684,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -569,7 +698,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -584,7 +716,10 @@
             "cuota-quincenal-funeraria-bolivares": "206.46",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -595,7 +730,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -606,7 +744,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -619,7 +760,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -630,7 +774,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -641,7 +788,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -654,7 +804,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -668,7 +821,10 @@
             "telefono-2": "02726521217",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -679,7 +835,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -690,7 +849,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -703,7 +865,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -714,7 +879,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -725,7 +893,10 @@
             "nucleo": "TRUJILLO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -744,7 +915,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -755,7 +929,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -766,7 +943,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -783,7 +963,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -794,7 +977,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -812,7 +998,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -825,7 +1014,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -836,7 +1028,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -847,7 +1042,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -860,7 +1058,10 @@
             "telefono-1": "04247518607",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -871,7 +1072,10 @@
             "nucleo": "DIVIDIVE",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -884,7 +1088,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -895,7 +1102,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -906,7 +1116,10 @@
             "nucleo": "BEATRIZ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -917,7 +1130,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -928,7 +1144,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -941,7 +1160,10 @@
             "telefono-1": "04147290369",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -956,7 +1178,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -967,7 +1192,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -981,7 +1209,10 @@
             "telefono-2": "02722364479",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -992,7 +1223,10 @@
             "nucleo": "TRUJILLO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1003,7 +1237,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1014,7 +1251,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1025,7 +1265,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1036,7 +1279,10 @@
             "nucleo": "BOCONO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1047,7 +1293,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1058,7 +1307,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1075,7 +1327,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1086,7 +1341,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1097,7 +1355,10 @@
             "nucleo": "SAN LUIS",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1108,7 +1369,10 @@
             "nucleo": "TRUJILLO",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1124,7 +1388,10 @@
             "cuota-quincenal-funeraria-bolivares": "187.34",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1140,7 +1407,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1150,7 +1420,10 @@
             "cuenta-principal": "01020747910000039194",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1163,7 +1436,10 @@
             "telefono-2": "04266279729",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1173,7 +1449,10 @@
             "cuenta-principal": "01020747900100000927",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1183,7 +1462,10 @@
             "cuenta-principal": "01020747950000042903",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1193,7 +1475,10 @@
             "cuenta-principal": "01020373230100091260",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1208,7 +1493,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1221,7 +1509,10 @@
             "telefono-2": "02712216538",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1231,7 +1522,10 @@
             "cuenta-principal": "01082404480100006343",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1246,7 +1540,10 @@
             "cuota-quincenal-funeraria-bolivares": "245.34",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1256,7 +1553,10 @@
             "cuenta-principal": "01020740110000134594",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1268,7 +1568,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1284,7 +1587,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1300,7 +1606,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1312,7 +1621,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1322,7 +1634,10 @@
             "cuenta-principal": "01020747920000043012",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1340,7 +1655,10 @@
             "cuota-quincenal-funeraria-bolivares": "187.34",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1350,7 +1668,10 @@
             "cuenta-principal": "01020747920000040109",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1372,7 +1693,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1382,7 +1706,10 @@
             "cuenta-principal": "01020747960000043931",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1392,7 +1719,10 @@
             "cuenta-principal": "01020747910000231675",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1409,7 +1739,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1421,7 +1754,10 @@
             "telefono-1": "04247385202",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1431,7 +1767,10 @@
             "cuenta-principal": "01020118760100044148",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1447,7 +1786,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1460,7 +1802,10 @@
             "telefono-2": "04166746027",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1473,7 +1818,10 @@
             "telefono-2": "02712314897",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1483,7 +1831,10 @@
             "cuenta-principal": "01082404410100006890",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1493,7 +1844,10 @@
             "cuenta-principal": "01020747940000044451",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1503,7 +1857,10 @@
             "cuenta-principal": "01020747960000044464",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1515,7 +1872,10 @@
             "telefono-1": "04147304168",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1525,7 +1885,10 @@
             "cuenta-principal": "01082404460200011735",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1541,7 +1904,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1554,7 +1920,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1570,7 +1939,10 @@
             "ahorro-estatutario": "70.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1580,7 +1952,10 @@
             "cuenta-principal": "01020747960000044545",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1590,7 +1965,10 @@
             "cuenta-principal": "01020373220000084725",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1605,7 +1983,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1615,7 +1996,10 @@
             "cuenta-principal": "01020747930000039291",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1625,7 +2009,10 @@
             "cuenta-principal": "01082404440100007110",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1635,7 +2022,10 @@
             "cuenta-principal": "01020747900000044574",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1645,7 +2035,10 @@
             "cuenta-principal": "01082404460100007137",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1657,7 +2050,10 @@
             "telefono-1": 56993512280,
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1667,7 +2063,10 @@
             "cuenta-principal": "01020493330000004349",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1679,7 +2078,10 @@
             "cuota-quincenal-funeraria-bolivares": "295.22",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1698,7 +2100,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1715,7 +2120,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1730,7 +2138,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1742,7 +2153,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1752,7 +2166,10 @@
             "cuenta-principal": "01020747910000231196",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1763,7 +2180,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1780,7 +2200,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1790,7 +2213,10 @@
             "cuenta-principal": "01020747990000044079",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1800,7 +2226,10 @@
             "cuenta-principal": "01020747990000044082",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1810,7 +2239,10 @@
             "cuenta-principal": "01082404400100007412",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1820,7 +2252,10 @@
             "cuenta-principal": "01082404440100113220",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1835,7 +2270,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1845,7 +2283,10 @@
             "cuenta-principal": "01082404450100007471",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1862,7 +2303,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1872,7 +2316,10 @@
             "cuenta-principal": "01082404430100049530",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1882,7 +2329,10 @@
             "cuenta-principal": "01020747970000044147",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1895,7 +2345,10 @@
             "telefono-2": "04167703084",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1907,7 +2360,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1917,7 +2373,10 @@
             "cuenta-principal": "01020747900000045272",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1930,7 +2389,10 @@
             "telefono-2": "04149786096",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1945,7 +2407,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1957,7 +2422,10 @@
             "telefono-1": "04147475921",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1976,7 +2444,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -1993,7 +2464,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2005,7 +2479,10 @@
             "telefono-1": "04166750782",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2015,7 +2492,10 @@
             "cuenta-principal": "01020747980000045340",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2025,7 +2505,10 @@
             "cuenta-principal": "01020747910000045366",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2041,7 +2524,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2051,7 +2537,10 @@
             "cuenta-principal": "01020747930000045382",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2065,7 +2554,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2079,7 +2571,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2089,7 +2584,10 @@
             "cuenta-principal": "01020747950000045395",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2099,7 +2597,10 @@
             "cuenta-principal": "01020747980000039411",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2109,7 +2610,10 @@
             "cuenta-principal": "01020747980000045418",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2121,7 +2625,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2133,7 +2640,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2149,7 +2659,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2165,7 +2678,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2178,7 +2694,10 @@
             "telefono-2": "04122471857",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2190,7 +2709,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2206,7 +2728,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2216,7 +2741,10 @@
             "cuenta-principal": "01020747960000233440",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2229,7 +2757,10 @@
             "telefono-2": "04167779084",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2241,7 +2772,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2253,7 +2787,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2266,7 +2803,10 @@
             "telefono-2": "02712215605",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2278,7 +2818,10 @@
             "telefono-1": "04247051134",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2288,7 +2831,10 @@
             "cuenta-principal": "01020747910000233563",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2298,7 +2844,10 @@
             "cuenta-principal": "01020373280100094759",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2311,7 +2860,10 @@
             "telefono-2": "02712442952",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2330,7 +2882,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2342,7 +2897,10 @@
             "telefono-1": "04247370075",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2352,7 +2910,10 @@
             "cuenta-principal": "01082404400100053600",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2368,7 +2929,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2384,7 +2948,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2394,7 +2961,10 @@
             "cuenta-principal": "01082404400100008656",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2404,7 +2974,10 @@
             "cuenta-principal": "01020747910000044752",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2425,7 +2998,10 @@
             "forma-de-pago-de-cooperativa": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2435,7 +3011,10 @@
             "cuenta-principal": "01020747970000006787",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2448,7 +3027,10 @@
             "telefono-2": "02712351969",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2469,7 +3051,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2479,7 +3064,10 @@
             "cuenta-principal": "01020747930000232878",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2495,7 +3083,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2512,7 +3103,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2522,7 +3116,10 @@
             "cuenta-principal": "01020373210000092526",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2532,7 +3129,10 @@
             "cuenta-principal": "01020754170000027025",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2542,7 +3142,10 @@
             "cuenta-principal": "01020747980000044804",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2552,7 +3155,10 @@
             "cuenta-principal": "01020747900000044817",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2564,7 +3170,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2576,7 +3185,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2586,7 +3198,10 @@
             "cuenta-principal": "01082404420100008923",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2596,7 +3211,10 @@
             "cuenta-principal": "01020747900000043957",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2606,7 +3224,10 @@
             "cuenta-principal": "01020373230100094756",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2616,7 +3237,10 @@
             "cuenta-principal": "01020747990000044163",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2626,7 +3250,10 @@
             "cuenta-principal": "01020369470000071660",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2636,7 +3263,10 @@
             "cuenta-principal": "01020747910000039602",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2650,7 +3280,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2671,7 +3304,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2683,7 +3319,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2693,7 +3332,10 @@
             "cuenta-principal": "01020373210100097120",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2703,7 +3345,10 @@
             "cuenta-principal": "01020747910000040497",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2713,7 +3358,10 @@
             "cuenta-principal": "01020747990000045023",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2723,7 +3371,10 @@
             "cuenta-principal": "01082404420100009148",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2738,7 +3389,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2748,7 +3402,10 @@
             "cuenta-principal": "01020747910000040507",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2758,7 +3415,10 @@
             "cuenta-principal": "01020747910000040510",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2777,7 +3437,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2787,7 +3450,10 @@
             "cuenta-principal": "01082404440100009245",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2797,7 +3463,10 @@
             "cuenta-principal": "01020747970000045489",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2807,7 +3476,10 @@
             "cuenta-principal": "01082404460100009261",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2825,7 +3497,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2835,7 +3510,10 @@
             "cuenta-principal": "01020747970000040549",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2848,7 +3526,10 @@
             "telefono-2": "02712256660",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2860,7 +3541,10 @@
             "telefono-1": "04143713427",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2877,7 +3561,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2889,7 +3576,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2902,7 +3592,10 @@
             "telefono-2": "02726524879",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2912,7 +3605,10 @@
             "cuenta-principal": "01082404410100009482",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2928,7 +3624,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2938,7 +3637,10 @@
             "cuenta-principal": "01020747910000235202",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2948,7 +3650,10 @@
             "cuenta-principal": "01020369470001034266",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2965,7 +3670,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2978,7 +3686,10 @@
             "telefono-2": "02712312944",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -2996,7 +3707,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3006,7 +3720,10 @@
             "cuenta-principal": "01020747990000039819",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3018,7 +3735,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3031,7 +3751,10 @@
             "ahorro-voluntario": "15.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3044,7 +3767,10 @@
             "telefono-2": "04127641551",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3059,7 +3785,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3076,7 +3805,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3086,7 +3818,10 @@
             "cuenta-principal": "01020747960000234216",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3096,7 +3831,10 @@
             "cuenta-principal": "01020747940000039864",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3113,7 +3851,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3126,7 +3867,10 @@
             "telefono-2": "04261723922",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3136,7 +3880,10 @@
             "cuenta-principal": "01020747940100000012",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3146,7 +3893,10 @@
             "cuenta-principal": "01020747960000039880",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3157,7 +3907,10 @@
             "ahorro-voluntario": "20.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3167,7 +3920,10 @@
             "cuenta-principal": "01020747990000039903",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3184,7 +3940,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3201,7 +3960,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3216,7 +3978,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3226,7 +3991,10 @@
             "cuenta-principal": "01020373280100094860",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3241,7 +4009,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3251,7 +4022,10 @@
             "cuenta-principal": "01020747910000234423",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3267,7 +4041,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3277,7 +4054,10 @@
             "cuenta-principal": "01020747900000039990",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3287,7 +4067,10 @@
             "cuenta-principal": "01020747930000233657",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3297,7 +4080,10 @@
             "cuenta-principal": "01020369450000288806",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3307,7 +4093,10 @@
             "cuenta-principal": "01020747920000040031",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3317,7 +4106,10 @@
             "cuenta-principal": "01020747900000040895",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3327,7 +4119,10 @@
             "cuenta-principal": "01020747920000040918",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3337,7 +4132,10 @@
             "cuenta-principal": "01020747920000040921",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3354,7 +4152,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3371,7 +4172,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3381,7 +4185,10 @@
             "cuenta-principal": "01020747960000040950",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3393,7 +4200,10 @@
             "telefono-1": "02718810318",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3403,7 +4213,10 @@
             "cuenta-principal": "01020747900000040976",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3417,7 +4230,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3435,7 +4251,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3453,7 +4272,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3463,7 +4285,10 @@
             "cuenta-principal": "01020747940000040206",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3481,7 +4306,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3491,7 +4319,10 @@
             "cuenta-principal": "01020747960000040222",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3501,7 +4332,10 @@
             "cuenta-principal": "01020369460000072588",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3517,7 +4351,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3529,7 +4366,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3545,7 +4385,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3563,7 +4406,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3573,7 +4419,10 @@
             "cuenta-principal": "01020747930000040280",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3587,7 +4436,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3597,7 +4449,10 @@
             "cuenta-principal": "01020747970000233042",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3607,7 +4462,10 @@
             "cuenta-principal": "01020747910000233068",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3625,7 +4483,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3642,7 +4503,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3652,7 +4516,10 @@
             "cuenta-principal": "01020373240000092869",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3662,7 +4529,10 @@
             "cuenta-principal": "01020747960100000185",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3672,7 +4542,10 @@
             "cuenta-principal": "01020747900000040413",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3682,7 +4555,10 @@
             "cuenta-principal": "01020747910000040426",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3692,7 +4568,10 @@
             "cuenta-principal": "01020747930000040439",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3702,7 +4581,10 @@
             "cuenta-principal": "01020747930000040442",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3720,7 +4602,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3732,7 +4617,10 @@
             "telefono-1": "04164324966",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3749,7 +4637,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3770,7 +4661,10 @@
             "forma-de-pago-de-cooperativa": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3780,7 +4674,10 @@
             "cuenta-principal": "01020747990000040565",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3796,7 +4693,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3813,7 +4713,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3828,7 +4731,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3840,7 +4746,10 @@
             "telefono-1": "04264784771",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3850,7 +4759,10 @@
             "cuenta-principal": "01020747920000040594",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3862,7 +4774,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3872,7 +4787,10 @@
             "cuenta-principal": "01020747910000040659",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3882,7 +4800,10 @@
             "cuenta-principal": "01020747920000040675",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3893,7 +4814,10 @@
             "correo-electronico": "miltonestevez3@hotmail.com",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3910,7 +4834,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3923,7 +4850,10 @@
             "telefono-2": "04123335877",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3933,7 +4863,10 @@
             "cuenta-principal": "01020747910000231028",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3943,7 +4876,10 @@
             "cuenta-principal": "01020747940000040769",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3953,7 +4889,10 @@
             "cuenta-principal": "01020373280000123521",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3968,7 +4907,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3978,7 +4920,10 @@
             "cuenta-principal": "01020494180000049744",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -3990,7 +4935,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4000,7 +4948,10 @@
             "cuenta-principal": "01020747920000040837",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4010,7 +4961,10 @@
             "cuenta-principal": "01020747980000231251",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4020,7 +4974,10 @@
             "cuenta-principal": "01020747910000231277",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4030,7 +4987,10 @@
             "cuenta-principal": "01020747940000040853",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4042,7 +5002,10 @@
             "telefono-1": "04121956056",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4052,7 +5015,10 @@
             "cuenta-principal": "01020747980000040879",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4068,7 +5034,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4078,7 +5047,10 @@
             "cuenta-principal": "01020747910000041687",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4088,7 +5060,10 @@
             "cuenta-principal": "01020747910000041690",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4104,7 +5079,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4114,7 +5092,10 @@
             "cuenta-principal": "01020747960000041726",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4124,7 +5105,10 @@
             "cuenta-principal": "01020747900000231507",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4134,7 +5118,10 @@
             "cuenta-principal": "01020747980000041742",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4144,7 +5131,10 @@
             "cuenta-principal": "01020747960000041001",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4154,7 +5144,10 @@
             "cuenta-principal": "01082404490100010707",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4166,7 +5159,10 @@
             "telefono-1": "04247647403",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4176,7 +5172,10 @@
             "cuenta-principal": "01020747900000041027",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4191,7 +5190,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4201,7 +5203,10 @@
             "cuenta-principal": "01020747930000041056",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4211,7 +5216,10 @@
             "cuenta-principal": "01020369410100094549",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4221,7 +5229,10 @@
             "cuenta-principal": "01020747910000235516",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4238,7 +5249,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4248,7 +5262,10 @@
             "cuenta-principal": "01020747970000041085",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4264,7 +5281,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4274,7 +5294,10 @@
             "cuenta-principal": "01020747990000041098",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4291,7 +5314,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4301,7 +5327,10 @@
             "cuenta-principal": "01020118710000118921",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4311,7 +5340,10 @@
             "cuenta-principal": "01020151950100033573",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4321,7 +5353,10 @@
             "cuenta-principal": "01020747910000041124",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4331,7 +5366,10 @@
             "cuenta-principal": "01020747930000041140",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4343,7 +5381,10 @@
             "telefono-1": "04147307306",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4356,7 +5397,10 @@
             "telefono-2": "04121702819",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4366,7 +5410,10 @@
             "cuenta-principal": "01082404480100104868",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4379,7 +5426,10 @@
             "telefono-2": "04147008406",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4394,7 +5444,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4411,7 +5464,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4433,7 +5489,10 @@
             "forma-de-pago-de-cooperativa": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4443,7 +5502,10 @@
             "cuenta-principal": "01020494180100020306",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4453,7 +5515,10 @@
             "cuenta-principal": "01020373260100075114",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4463,7 +5528,10 @@
             "cuenta-principal": "01020369430000308456",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4473,7 +5541,10 @@
             "cuenta-principal": "01020226420100010644",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4483,7 +5554,10 @@
             "cuenta-principal": "01020369400100088297",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4493,7 +5567,10 @@
             "cuenta-principal": "01020118770000323237",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4509,7 +5586,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4525,7 +5605,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4535,7 +5618,10 @@
             "cuenta-principal": "01630308913085006562",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4550,7 +5636,10 @@
             "cuota-quincenal-funeraria-bolivares": "167.62",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4560,7 +5649,10 @@
             "cuenta-principal": "01020747930000038836",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4578,7 +5670,10 @@
             "cuota-mensual-funeraria-dolares": "4.00",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4588,7 +5683,10 @@
             "cuenta-principal": "01020747940000039699",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4598,7 +5696,10 @@
             "cuenta-principal": "01020118780000146566",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4614,7 +5715,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4624,7 +5728,10 @@
             "cuenta-principal": "01020373260000101035",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4637,7 +5744,10 @@
             "telefono-2": "04247669805",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4647,7 +5757,10 @@
             "cuenta-principal": "01020373210100089073",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4659,7 +5772,10 @@
             "telefono-1": "04160811222",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4669,7 +5785,10 @@
             "cuenta-principal": "01020747910000044341",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4685,7 +5804,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4701,7 +5823,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4716,7 +5841,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4729,7 +5857,10 @@
             "telefono-2": "02726782983",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4739,7 +5870,10 @@
             "cuenta-principal": "01020747940000041467",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4749,7 +5883,10 @@
             "cuenta-principal": "01020747930000007702",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4759,7 +5896,10 @@
             "cuenta-principal": "01020747960000041483",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4769,7 +5909,10 @@
             "cuenta-principal": "01020747990000041506",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4785,7 +5928,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4797,7 +5943,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4807,7 +5956,10 @@
             "cuenta-principal": "01020373210100094802",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4818,7 +5970,10 @@
             "cuota-quincenal-funeraria-bolivares": "128.76",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4834,7 +5989,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4844,7 +6002,10 @@
             "cuenta-principal": "01020747950000173555",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4854,7 +6015,10 @@
             "cuenta-principal": "01020747910000236298",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4872,7 +6036,10 @@
             "cuota-quincenal-funeraria-bolivares": "115.42",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4882,7 +6049,10 @@
             "cuenta-principal": "01020118720100042600",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4895,7 +6065,10 @@
             "telefono-2": "04169751020",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4905,7 +6078,10 @@
             "cuenta-principal": "01020747920000041616",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4915,7 +6091,10 @@
             "cuenta-principal": "01020118740100050680",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4925,7 +6104,10 @@
             "cuenta-principal": "01020747900000236531",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4941,7 +6123,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4957,7 +6142,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4967,7 +6155,10 @@
             "cuenta-principal": "01020369420000376572",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4977,7 +6168,10 @@
             "cuenta-principal": "01020369490100086848",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -4987,7 +6181,10 @@
             "cuenta-principal": "01020493350000166478",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -5003,7 +6200,10 @@
             "forma-de-pago-ahorro-voluntario": "2 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -5016,7 +6216,10 @@
             "telefono-2": "04161315201",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -5026,7 +6229,10 @@
             "cuenta-principal": "01020369450000397878 ",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -5042,7 +6248,10 @@
             "forma-de-pago-ahorro-voluntario": "1 quincena",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     },
     {
@@ -5057,7 +6266,10 @@
             "forma-de-pago-ahorro-voluntario": "quincenal",
             "monto-cuota-montep\u00edo ": "1.00",
             "monto-cuota-mutuo-auxilio": "0.50",
-            "cuota-aporte-extraordinario-quincenal": "0.50"
+            "cuota-aporte-extraordinario-quincenal": "0.50",
+            "image": {
+                "url": "image.png"
+            }
         }
     }
 ]
