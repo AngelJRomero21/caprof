@@ -552,9 +552,9 @@ function validarLogin() {
       return response.json();
     })
     .then(users => {
-      const foundUser = users.find(u => u.user.cedula === cedulaUsuario);
+      const foundUser = users.find(u => u.cedula === cedulaUsuario);
       if (foundUser) {
-        const cuentaPrincipal = foundUser.user["cuenta-principal"];
+        const cuentaPrincipal = foundUser["cuenta-principal"];
         const lastFourDigits = cuentaPrincipal.slice(-4);
         if (lastFourDigits === ultimosCuatro) {
           // Asignamos el usuario a la variable global
@@ -585,55 +585,69 @@ function mostrarResultado(user) {
   } else {
     saludo = 'Buenas noches';
   }
-  var saldovoluntario = parseFloat(user.user["ahorro-voluntario"]).toFixed(2);
-  var saldoestatutario = parseFloat(user.user["ahorro-estatutario"]).toFixed(2);
-  var cuotamensual = parseFloat(user.user["cuota-mensual"]).toFixed(2);
-  var afiliado = user.user["numero-afiliado"];
-  var fechaIngreso = user.user["fecha-ingreso"];
+  var saldovoluntario = parseFloat(user["ahorro-voluntario"]).toFixed(2);
+  var saldoestatutario = parseFloat(user["ahorro-estatutario"]).toFixed(2);
+  var cuotamensual = parseFloat(user["cuota-mensual"]).toFixed(2);
+  var afiliado = user["numero-afiliado"];
+  var fechaIngreso = user["fecha-ingreso"];
 var fechaIngresoFormateada = new Date(fechaIngreso);
 var dia = fechaIngresoFormateada.getDate();
 var mes = fechaIngresoFormateada.getMonth() + 1; 
 var año = fechaIngresoFormateada.getFullYear();
 var fechaIngresoStr = dia + "/" + mes + "/" + año
-var equiposFinanciados = user.user["equipos-financiados"];
-var montoEquipoFinanciado = parseFloat(user.user["monto-equipo-financiado"]).toFixed(2);
-var fechaSolicitudEquipo = user.user["fecha-solicitud-equipo"];
+var equiposFinanciados = user["equipos-financiados"];
+var montoEquipoFinanciado = parseFloat(user["monto-equipo-financiado"]).toFixed(2);
+
+var fechaSolicitudEquipo = user["fecha-solicitud-equipo"];
 var fechaSolicitudEquipoFormateada = new Date(fechaSolicitudEquipo);
 var diaEquipo = fechaSolicitudEquipoFormateada.getDate();
 var mesEquipo = fechaSolicitudEquipoFormateada.getMonth() + 1; 
 var añoEquipo = fechaSolicitudEquipoFormateada.getFullYear();
 var fechaSolicitudEquipoStr = diaEquipo + "/" + mesEquipo + "/" + añoEquipo;
-var cuotasEquipoFinanciado = user.user["cuotas-equipo-financiado"];
-var creditoEstatutario = parseFloat(user.user["credito-estatutario"]).toFixed(2);
-var cuotasEstatutario = user.user["cuotas-estatutario"];
-var fechaSolicitudEstatutario = user.user["fecha-solicitud-estatutario"];
+var cuotasEquipoFinanciado = user["cuotas-equipo-financiado"];
+var creditoEstatutario = parseFloat(user["credito-estatutario"]).toFixed(2);
+var cuotasEstatutario = user["cuotas-estatutario"];
+var fechaSolicitudEstatutario = user["fecha-solicitud-estatutario"];
 var fechaSolicitudEstatutarioFormateada = new Date(fechaSolicitudEstatutario);
 var diaEstatutario = fechaSolicitudEstatutarioFormateada.getDate();
 var mesEstatutario = fechaSolicitudEstatutarioFormateada.getMonth() + 1;
 var añoEstatutario = fechaSolicitudEstatutarioFormateada.getFullYear();
 var fechaSolicitudEstatutarioStr = diaEstatutario + "/" + mesEstatutario + "/" + añoEstatutario;
-var creditoFav = parseFloat(user.user["credito-fav"]).toFixed(2);
-var fechaSolicitudFav = user.user["fecha-solicitud-fav"];
-var cuotasFav = user.user["cuotas-fav"];
+var creditoFav = parseFloat(user["credito-fav"]).toFixed(2);
+var fechaSolicitudFav = user["fecha-solicitud-fav"];
+var cuotasFav = user["cuotas-credito-fav"];
 var fechaSolicitudFavFormateada = new Date(fechaSolicitudFav);
 var diaFav = fechaSolicitudFavFormateada.getDate();
 var mesFav = fechaSolicitudFavFormateada.getMonth() + 1;
 var añoFav = fechaSolicitudFavFormateada.getFullYear();
 var fechaSolicitudFavStr = diaFav + "/" + mesFav + "/" + añoFav;
 var sumaTotal = montoEquipoFinanciado + creditoEstatutario + creditoFav;
-var nombreUsuario = user.user["nombre"]; 
+var nombreUsuario = user["nombre"]; 
           var resultadoHTML = `
           <img src="https://cdn-icons-png.flaticon.com/512/1611/1611261.png" alt="Imagen de perfil">
+          <br>
             <p class="saludo">${saludo} <div class="nombre">${nombreUsuario}</div></p>
+            <br>
             <div class="walletBalanceCard">
-  <div class="balancewrapper">
-    <div class="balanceHeading">Ahorro Estatutario:</div>
-    <div class="balance"><span id="currency">Bs </span>${saldoestatutario}</div>
+   <div class="balanceHeading">Ahorro Estatutario</div>
+                  <div class="detailedBalances">
+        <div class="balanceDetail">
+            <div class="label">Disponible</div>
+            <div class="value"><span id="currency">Bs</span>${montoEquipoFinanciado}</div>
+        </div>
+        <div class="balanceDetail">
+            <div class="label">P/Cobrar</div>
+            <div class="value"><span id="currency">Bs</span>${creditoEstatutario}</div>
+        </div>
+        <div class="balanceDetail">
+            <div class="label">Total</div>
+            <div class="value"><span id="currency">Bs</span>${saldoestatutario}</div>
+        </div>
   </div>
 </div>
 <br>
   <div class="walletBalanceCard">
-        <div class="balanceHeading">Ahorro Voluntario (Cuota Mensual: $${cuotamensual})</div>
+        <div class="balanceHeading">Ahorro Voluntario (Mensual: $${cuotamensual})</div>
         <div class="balance"><span id="currency">$</span>${saldovoluntario}</div>
     </div>
     <br>
@@ -641,7 +655,7 @@ var nombreUsuario = user.user["nombre"];
         <div class="balanceHeading">Saldo en Creditos</div>
                   <div class="detailedBalances">
         <div class="balanceDetail">
-            <div class="label">Equipo Financiado</div>
+            <div class="label">Bienes y Servicios</div>
             <div class="value"><span id="currency">$</span>${montoEquipoFinanciado}</div>
         </div>
         <div class="balanceDetail">
@@ -649,7 +663,7 @@ var nombreUsuario = user.user["nombre"];
             <div class="value"><span id="currency">Bs</span>${creditoEstatutario}</div>
         </div>
         <div class="balanceDetail">
-            <div class="label">Crédito Fav</div>
+            <div class="label">Crédito F.A.V.</div>
             <div class="value"><span id="currency">$</span>${creditoFav}</div>
         </div>
           </div>
@@ -675,6 +689,7 @@ var nombreUsuario = user.user["nombre"];
             <!-- Campo para el tipo de crédito -->
             <input type="hidden" id="creditType" name="Tipo de Credito" readonly>
             <!-- Campo para el monto calculado -->
+            <br>
             <label for="calculatedAmount">Disponible:</label>
             <input type="text" id="calculatedAmount" name="Monto" readonly>
             <input type="hidden" id="userId" name="Cedula de Identidad" readonly>
@@ -695,7 +710,7 @@ var nombreUsuario = user.user["nombre"];
             <input type="text" id="monthlyQuota" name="Cuota Mensual" readonly>
             <label for="biweeklyQuota">Cuota Quincenal:</label>
             <input type="text" id="biweeklyQuota" name="Cuota Quincenal" readonly>
-            
+            <p><strong>SE INCLUYEN GASTOS BANCARIOS.</strong></p>
             <button type="submit">Enviar Solicitud</button>
         </form>
     </div>
@@ -755,7 +770,7 @@ function toggleExtraButtons() {
 }
 // Mostrar el formulario con los datos del usuario
 function showForm(creditType, user) {
-    if (!user || !user.user) {
+    if (!user || !user) {
         console.error("El objeto 'user' no está definido o no contiene la información necesaria.");
         return;
     }
@@ -765,8 +780,8 @@ function showForm(creditType, user) {
     const calculatedAmountField = document.getElementById('calculatedAmount');
     const userIdField = document.getElementById('userId');
 
-    const saldoestatutario = parseFloat(user.user["ahorro-estatutario"]).toFixed(2);
-    const afiliado = user.user["cedula"];
+    const saldoestatutario = parseFloat(user["ahorro-estatutario"]).toFixed(2);
+    const afiliado = user["cedula"];
     formTitle.textContent = 'Solicitud: ' + creditType;
     creditTypeField.value = creditType;
 
@@ -788,7 +803,7 @@ function showForm(creditType, user) {
 function calculateInstallments() {
     const calculatedAmount = parseFloat(document.getElementById('calculatedAmount').value) || 0;
     const months = parseInt(document.getElementById('months').value) || 6;
-    const totalAmount = calculatedAmount * 1.12; // Aplicar el 12% adicional
+    const totalAmount = calculatedAmount * 1.163; // Aplicar el 12% adicional
     const monthlyQuota = (totalAmount / months).toFixed(2);
     const biweeklyQuota = (monthlyQuota / 2).toFixed(2);
 
@@ -804,11 +819,11 @@ function closeModal() {
 document.addEventListener("DOMContentLoaded", () => {
       // Mostrar el formulario si cumple con los requisitos
       window.showFavForm = function () {
-        if (!user || !user.user) {
+        if (!user || !user) {
           console.error("El objeto 'user' no está definido.");
           return;
         }
-  const fechaIngreso = user.user["fecha-ingreso"]; // Ejemplo: "2023-06-01"
+  const fechaIngreso = user["fecha-ingreso"]; // Ejemplo: "2023-06-01"
   // Convertir la fecha a formato correcto
   const fechaIngresoFormateada = new Date(fechaIngreso); // Convierte "YYYY-MM-DD" a un objeto Date
   // Extraer día, mes y año del objeto Date
@@ -827,7 +842,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
         const cedulaInput = document.getElementById("cedula");
-        cedulaInput.value = user.user["cedula"]; // Establecer la cédula automáticamente
+        cedulaInput.value = user["cedula"]; // Establecer la cédula automáticamente
         const favFormModal = document.getElementById("favFormModal");
         favFormModal.classList.remove("hidden");
         favFormModal.style.display = "block";
