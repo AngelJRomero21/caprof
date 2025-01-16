@@ -614,6 +614,16 @@ var mesEstatutario = fechaSolicitudEstatutarioFormateada.getMonth() + 1;
 var añoEstatutario = fechaSolicitudEstatutarioFormateada.getFullYear();
 var fechaSolicitudEstatutarioStr = diaEstatutario + "/" + mesEstatutario + "/" + añoEstatutario;
 var creditoFav = parseFloat(user["credito-fav"]).toFixed(2);
+var saldopendientefav = parseFloat(user["saldo-pendiente-fav"]).toFixed(2);
+var saldopendientecreditoestatutario = parseFloat(user["saldo-pendiente-credito-estatutario"]).toFixed(2);
+var saldopendienteequipofinanciado = parseFloat(user["saldo-pendiente-de-equipo-financiado"]).toFixed(2);
+var ahorrosocio = parseFloat(user["ahorro-socio"]).toFixed(2);
+var aportepatronal = parseFloat(user["aporte-patronal"]).toFixed(2);
+var saldodisponibleestatutario = (parseFloat(ahorrosocio) + parseFloat(aportepatronal)).toFixed(2);
+var ahorrosocioporcobrar = parseFloat(user["ahorro-socio-por-cobrar"]).toFixed(2);
+var aportepatronalporcobrar = parseFloat(user["aporte-patronal-por-cobrar"]).toFixed(2);
+var saldobloqueadoestatutario = (parseFloat(ahorrosocioporcobrar) + parseFloat(aportepatronalporcobrar)).toFixed(2);
+var totalsaldoestatutario = (parseFloat(saldodisponibleestatutario) + parseFloat(saldobloqueadoestatutario)).toFixed(2);
 var fechaSolicitudFav = user["fecha-solicitud-fav"];
 var cuotasFav = user["cuotas-credito-fav"];
 var fechaSolicitudFavFormateada = new Date(fechaSolicitudFav);
@@ -633,15 +643,15 @@ var nombreUsuario = user["nombre"];
                   <div class="detailedBalances">
         <div class="balanceDetail">
             <div class="label">Disponible</div>
-            <div class="value"><span id="currency">Bs</span>${montoEquipoFinanciado}</div>
+            <div class="value"><span id="currency">Bs</span>${saldodisponibleestatutario}</div>
         </div>
         <div class="balanceDetail">
             <div class="label">P/Cobrar</div>
-            <div class="value"><span id="currency">Bs</span>${creditoEstatutario}</div>
+            <div class="value"><span id="currency">Bs</span>${saldobloqueadoestatutario}</div>
         </div>
         <div class="balanceDetail">
             <div class="label">Total</div>
-            <div class="value"><span id="currency">Bs</span>${saldoestatutario}</div>
+            <div class="value"><span id="currency">Bs</span>${totalsaldoestatutario}</div>
         </div>
   </div>
 </div>
@@ -656,15 +666,15 @@ var nombreUsuario = user["nombre"];
                   <div class="detailedBalances">
         <div class="balanceDetail">
             <div class="label">Bienes y Servicios</div>
-            <div class="value"><span id="currency">$</span>${montoEquipoFinanciado}</div>
+            <div class="value"><span id="currency">$</span>${saldopendienteequipofinanciado}</div>
         </div>
         <div class="balanceDetail">
             <div class="label">Crédito Estatutario</div>
-            <div class="value"><span id="currency">Bs</span>${creditoEstatutario}</div>
+            <div class="value"><span id="currency">Bs</span>${saldopendientecreditoestatutario}</div>
         </div>
         <div class="balanceDetail">
             <div class="label">Crédito F.A.V.</div>
-            <div class="value"><span id="currency">$</span>${creditoFav}</div>
+            <div class="value"><span id="currency">$</span>${saldopendientefav}</div>
         </div>
           </div>
     </div>
@@ -780,13 +790,15 @@ function showForm(creditType, user) {
     const calculatedAmountField = document.getElementById('calculatedAmount');
     const userIdField = document.getElementById('userId');
 
-    const saldoestatutario = parseFloat(user["ahorro-estatutario"]).toFixed(2);
+    const ahorrosocio = parseFloat(user["ahorro-socio"]).toFixed(2);
+    const aportepatronal = parseFloat(user["aporte-patronal"]).toFixed(2);
+    const saldodisponibleestatutario = (parseFloat(ahorrosocio) + parseFloat(aportepatronal)).toFixed(2);
     const afiliado = user["cedula"];
     formTitle.textContent = 'Solicitud: ' + creditType;
     creditTypeField.value = creditType;
 
     if (creditType === '80% Haberes') {
-        const amount = (saldoestatutario * 0.8).toFixed(2);
+        const amount = (saldodisponibleestatutario * 0.8).toFixed(2);
         calculatedAmountField.value = amount;
     } else {
         calculatedAmountField.value = '';
