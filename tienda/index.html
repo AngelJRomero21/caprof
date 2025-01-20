@@ -7,129 +7,121 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-    }
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+  }
 
-    header {
-      background-color: #0066cc;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
 
-    h1 {
-      margin: 0;
-      font-size: 2em;
-    }
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
 
-    main {
-      padding: 20px;
-    }
+  .catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
 
-    /* Estilo de las tarjetas de productos */
-    .catalog {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-    .card {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      overflow: hidden;
-      text-align: center;
-      width: 250px;
-      transition: transform 0.3s;
-    }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
 
-    .card:hover {
-      transform: scale(1.05);
-    }
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
 
-    .card img {
-      width: 100%;
-      height: 150px;
-      object-fit: cover;
-    }
+  .card h3 {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #333;
+  }
 
-    .card h3 {
-      margin: 15px 0;
-      font-size: 1.2em;
-      color: #0066cc;
-    }
+  .card p {
+    margin: 10px 0;
+    color: #555;
+  }
 
-    .card p {
-      margin: 0 15px 15px;
-      font-size: 1em;
-      color: #555;
-    }
+  .buy-btn {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buy-btn {
-      background-color: #0066cc;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      padding: 10px 20px;
-      font-size: 1em;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
+  .buy-btn:hover {
+    background-color: #00509e;
+  }
 
-    .buy-btn:hover {
-      background-color: #004b99;
-    }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
 
-    /* Estilo de los modales */
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      justify-content: center;
-      align-items: center;
-      z-index: 1000;
-    }
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+  }
 
-    .modal-content {
-      background-color: #fff;
-      border-radius: 10px;
-      padding: 20px;
-      width: 90%;
-      max-width: 500px;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
+  .modal-content img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
 
-    .modal-content h2 {
-      margin-top: 0;
-      color: #0066cc;
-    }
+  .modal-content h2, .modal-content p {
+    margin: 15px 0;
+  }
 
-    .close {
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      font-size: 1.5em;
-      color: #aaa;
-      cursor: pointer;
-      transition: color 0.3s;
-    }
+  .modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+  }
 
-    .close:hover {
-      color: #333;
-    }
-
-    /* Estilo del formulario */
-    form {
+/* Estilo del formulario */
+form {
       display: flex;
       flex-direction: column;
       gap: 15px;
@@ -177,12 +169,18 @@
       color: #555;
     }
 
-    /* Responsive Design */
-    @media (max-width: 600px) {
-      .card {
-        width: 100%;
-      }
+
+
+
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 20px;
     }
+
+    .card img {
+      height: 250px;
+    }
+  }  
   </style>
 </head>
 <body>
@@ -213,7 +211,7 @@
       <form id="purchaseData" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <label for="cedula">Número de Cédula:</label>
-        <input type="text" id="cedula" name="cedula" required>
+        <input type="number" id="cedula" name="cedula" required>
 
         <p>Precio de Venta: <span id="salePrice"></span></p>
         <label for="initial">Monto Inicial (30%):</label>
