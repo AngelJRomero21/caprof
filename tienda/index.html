@@ -3,99 +3,191 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda Virtual CAPROF-UPTET - Caja de Ahorros de los Profesores de la Universidad Politecnica Territorial del Estado Trujillo "Mario Briceño Iragorry"</title>
+  <title>Tienda Virtual CAPROF-UPTET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
 
+    header {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L419MTZYJQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
 
-  gtag('config', 'G-L419MTZYJQ');
-</script>
+    main {
+      padding: 20px;
+    }
 
+    /* Estilo de las tarjetas de productos */
+    .catalog {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
 
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s;
+    }
 
-    <style>
+    .card:hover {
+      transform: scale(1.05);
+    }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
 
-.title {
-  color: #003366;
-  text-align: center;
-  margin: 20px 0;
-}
+    .card h3 {
+      margin: 15px 0;
+      font-size: 1.2em;
+      color: #0066cc;
+    }
 
-.catalog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
+    .card p {
+      margin: 0 15px 15px;
+      font-size: 1em;
+      color: #555;
+    }
 
-.card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  width: 300px;
-  padding: 15px;
-  text-align: center;
-  background-color: white;
-  transition: box-shadow 0.3s ease;
-}
+    .buy-btn {
+      background-color: #0066cc;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
 
-.card:hover {
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+    .buy-btn:hover {
+      background-color: #004b99;
+    }
 
-.card img {
-  max-width: 100%;
-  border-radius: 10px;
-}
+    /* Estilo de los modales */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
 
-.buy-btn {
-  background-color: #003366;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-}
+    .modal-content {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
 
-.modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  justify-content: center;
-  align-items: center;
-}
+    .modal-content h2 {
+      margin-top: 0;
+      color: #0066cc;
+    }
 
-.modal-content {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: 90%;
-  max-width: 500px;
-  text-align: center;
-}
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 1.5em;
+      color: #aaa;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
 
+    .close:hover {
+      color: #333;
+    }
 
-    </style>
+    /* Estilo del formulario */
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    form label {
+      font-weight: bold;
+      color: #555;
+    }
+
+    form input, form select {
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s;
+    }
+
+    form input:focus, form select:focus {
+      border-color: #0066cc;
+      outline: none;
+    }
+
+    .submit-btn {
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .submit-btn:hover {
+      background-color: #1e7e34;
+    }
+
+    /* Elementos calculados */
+    .calculated p {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-left: 4px solid #0066cc;
+      font-weight: bold;
+      color: #555;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1 class="title">Catálogo de Productos</h1>
+    <h1>Tienda Virtual CAPROF-UPTET</h1>
   </header>
   <main>
     <div id="catalog" class="catalog"></div>
@@ -125,9 +217,9 @@ body {
 
         <p>Precio de Venta: <span id="salePrice"></span></p>
         <label for="initial">Monto Inicial (30%):</label>
-        <input type="number" id="initial" name="initial" min="0" step="0.01" required>
+        <input type="number" id="initial" name="initial" min="0" step="0.01" readonly>
         <label for="additionalInitial">¿Desea aumentar la inicial?</label>
-        <input type="number" id="additionalInitial" name="additionalInitial" min="0" step="0.01">
+        <input type="number" id="additionalInitial" name="additionalInitial" min="0" step="0.50">
 
         <p>Fondo de Protección Financiera: <span id="protectionFund"></span></p>
         <p>Monto Total de Financiamiento: <span id="totalFinancing"></span></p>
@@ -143,98 +235,84 @@ body {
   </div>
 
   <script>
+    const catalog = document.getElementById("catalog");
+    const modal = document.getElementById("productModal");
+    const closeModal = document.getElementById("closeModal");
+    const purchaseForm = document.getElementById("purchaseForm");
+    const closeForm = document.getElementById("closeForm");
+    const buyButton = document.getElementById("buyButton");
 
-const catalog = document.getElementById("catalog");
-const modal = document.getElementById("productModal");
-const closeModal = document.getElementById("closeModal");
-const purchaseForm = document.getElementById("purchaseForm");
-const closeForm = document.getElementById("closeForm");
+    let selectedProduct;
 
-// Load JSON Data
-fetch("https://caprofuptet.cromstudio.com.ve/tienda/equipos_financiados.json")
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(product => {
-      const card = document.createElement("div");
-      card.classList.add("card");
-      card.innerHTML = `
-        <img src="${product.image_url}" alt="${product.producto}">
-        <h3>${product.producto}</h3>
-        <p>Precio: $${product.precio_venta_con_30_por_ciento}</p>
-        <button class="buy-btn" onclick="showModal(${JSON.stringify(product).replace(/"/g, '&quot;')})">Ver Producto</button>
-      `;
-      catalog.appendChild(card);
+    fetch("https://caprofuptet.cromstudio.com.ve/tienda/equipos_financiados.json")
+      .then(response => response.json())
+      .then(data => {
+        data.forEach(product => {
+          const card = document.createElement("div");
+          card.classList.add("card");
+          card.innerHTML = `
+            <img src="${product.image_url}" alt="${product.producto}">
+            <h3>${product.producto}</h3>
+            <p>Precio: $${product.precio_venta_con_30_por_ciento}</p>
+            <button class="buy-btn" onclick="showModal(${JSON.stringify(product).replace(/"/g, '&quot;')})">Ver Producto</button>
+          `;
+          catalog.appendChild(card);
+        });
+      });
+
+    function showModal(product) {
+      selectedProduct = product;
+      modal.style.display = "flex";
+      document.getElementById("modalImage").src = product.image_url;
+      document.getElementById("modalTitle").textContent = product.producto;
+      document.getElementById("modalDescription").textContent = product.descripcion;
+      document.getElementById("modalPrice").textContent = `Precio: $${product.precio_venta_con_30_por_ciento}`;
+    }
+
+    function showForm() {
+      modal.style.display = "none";
+      purchaseForm.style.display = "flex";
+
+      const salePrice = selectedProduct.precio_venta_con_30_por_ciento;
+      const protectionFund = selectedProduct.fondo_proteccion_financiera;
+      const initial = selectedProduct.inicial;
+
+      document.getElementById("salePrice").textContent = `$${salePrice.toFixed(2)}`;
+      document.getElementById("protectionFund").textContent = `$${protectionFund.toFixed(2)}`;
+      document.getElementById("initial").value = initial.toFixed(2);
+
+      // Calcula y actualiza los datos del formulario
+      updateCalculations();
+    }
+
+    function updateCalculations() {
+      const initial = parseFloat(document.getElementById("initial").value) || 0;
+      const additionalInitial = parseFloat(document.getElementById("additionalInitial").value) || 0;
+      const months = parseInt(document.getElementById("months").value) || 1;
+
+      const totalInitial = initial + additionalInitial;
+      const totalFinancing = selectedProduct.precio_venta_con_30_por_ciento - totalInitial + selectedProduct.fondo_proteccion_financiera;
+      const monthlyQuota = totalFinancing / months;
+      const biweeklyQuota = monthlyQuota / 2;
+
+      document.getElementById("totalFinancing").textContent = `$${totalFinancing.toFixed(2)}`;
+      document.getElementById("monthlyQuota").textContent = `$${monthlyQuota.toFixed(2)}`;
+      document.getElementById("biweeklyQuota").textContent = `$${biweeklyQuota.toFixed(2)}`;
+    }
+
+    closeModal.addEventListener("click", () => {
+      modal.style.display = "none";
     });
-  });
 
-// Show Modal
-function showModal(product) {
-  modal.style.display = "flex";
-  document.getElementById("modalImage").src = product.image_url;
-  document.getElementById("modalTitle").textContent = product.producto;
-  document.getElementById("modalDescription").textContent = product.descripcion;
-  document.getElementById("modalPrice").textContent = `Precio: $${product.precio_venta_con_30_por_ciento}`;
-  document.getElementById("buyButton").onclick = () => showForm(product);
-}
+    closeForm.addEventListener("click", () => {
+      purchaseForm.style.display = "none";
+    });
 
-// Show Purchase Form
-function showForm(product) {
-  modal.style.display = "none";
-  purchaseForm.style.display = "flex";
+    buyButton.addEventListener("click", showForm);
 
-  // Mostrar datos iniciales
-  const salePrice = product.precio_venta_con_30_por_ciento;
-  const protectionFund = product.fondo_proteccion_financiera;
-  const initial = product.inicial;
-
-  document.getElementById("salePrice").textContent = `$${salePrice.toFixed(2)}`;
-  document.getElementById("protectionFund").textContent = `$${protectionFund.toFixed(2)}`;
-  document.getElementById("initial").value = initial.toFixed(2);
-
-  // Variables de formulario
-  const initialInput = document.getElementById("initial");
-  const additionalInitialInput = document.getElementById("additionalInitial");
-  const monthsInput = document.getElementById("months");
-  const totalFinancingElement = document.getElementById("totalFinancing");
-  const monthlyQuotaElement = document.getElementById("monthlyQuota");
-  const biweeklyQuotaElement = document.getElementById("biweeklyQuota");
-
-  // Actualizar cálculo en tiempo real
-  function updateCalculations() {
-    const initialAmount = parseFloat(initialInput.value) || 0;
-    const additionalInitial = parseFloat(additionalInitialInput.value) || 0;
-
-    // Asegurar que la inicial aumentada no sea menor a la inicial base
-    const validAdditionalInitial = Math.max(additionalInitial, 0);
-    additionalInitialInput.value = validAdditionalInitial.toFixed(2);
-
-    const totalInitial = initialAmount + validAdditionalInitial;
-    const totalFinancing = salePrice - totalInitial + protectionFund;
-
-    const months = Math.max(1, Math.min(parseInt(monthsInput.value) || 1, 5));
-    monthsInput.value = months;
-
-
-    const monthlyQuota = totalFinancing / months;
-    const biweeklyQuota = monthlyQuota / 2;
-
-    // Mostrar cálculos
-    totalFinancingElement.textContent = `$${totalFinancing.toFixed(2)}`;
-    monthlyQuotaElement.textContent = `$${monthlyQuota.toFixed(2)}`;
-    biweeklyQuotaElement.textContent = `$${biweeklyQuota.toFixed(2)}`;
-  }
-
-  // Listeners para actualizar cálculos
-  initialInput.addEventListener("input", updateCalculations);
-  additionalInitialInput.addEventListener("input", updateCalculations);
-  monthsInput.addEventListener("input", updateCalculations);
-
-  // Realizar cálculo inicial
-  updateCalculations();
-}
-
-
+    document.querySelectorAll("input").forEach(input => {
+      input.addEventListener("input", updateCalculations);
+    });
   </script>
-
 </body>
 </html>
