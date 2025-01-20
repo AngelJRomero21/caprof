@@ -3,9 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda Virtual CAPROF-UPTET</title>
+  <title>Tienda Virtual CAPROF-UPTET - Caja de Ahorro de los Profesores de la Universidad Politecnica Territorial del Estado Trujillo "Mario Briceño Iragorry"</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="https://caprofuptet.cromstudio.com.ve/sistema/" />
+  <meta property="og:title" content="TIENDA VIRTUAL DE LA CAJA DE AHORRO DE LOS PROFESORES DE LA UNIVERSIDAD POLITECNICA TERRITORIAL DEL ESTADO TRUJILLO" />
+  <meta property="og:description" content="CATALOGO VIRTUAL DE PRODUCTOS DE CAPROF-UPTET" />
+  <meta property="og:image" content="https://i.imgur.com/AlOKrDB.png" />
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L419MTZYJQ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-L419MTZYJQ');
+</script>
+
+
+
   <style>
 body {
     font-family: 'Roboto', sans-serif;
@@ -15,7 +38,7 @@ body {
   }
 
   header {
-    background-color: #003366;
+    background-color: #007acc;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -65,7 +88,7 @@ body {
   }
 
   .buy-btn {
-    background-color: #003366;
+    background-color: #007acc;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -76,7 +99,7 @@ body {
   }
 
   .buy-btn:hover {
-    background-color: #00509e;
+    background-color: #007acc;
   }
 
   .modal {
@@ -141,12 +164,12 @@ form {
     }
 
     form input:focus, form select:focus {
-      border-color: #0066cc;
+      border-color: #007acc;
       outline: none;
     }
 
     .submit-btn {
-      background-color: #28a745;
+      background-color: #007acc;
       color: #fff;
       border: none;
       border-radius: 5px;
@@ -164,7 +187,7 @@ form {
     .calculated p {
       background-color: #f9f9f9;
       padding: 10px;
-      border-left: 4px solid #0066cc;
+      border-left: 4px solid #007acc;
       font-weight: bold;
       color: #555;
     }
@@ -208,8 +231,10 @@ form {
     <div class="modal-content">
       <span id="closeForm" class="close">&times;</span>
       <h2>Formulario de Compra</h2>
-      <form id="purchaseData" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <form id="purchaseData" action="https://formsubmit.co/99738e359615e61c3ed0986f558f40a3" method="POST">
         <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="box">
+        <input type="hidden" name="_next" value="https://tudominio.co/gracias.html">
         <label for="cedula">Número de Cédula:</label>
         <input type="number" id="cedula" name="cedula" required>
 
