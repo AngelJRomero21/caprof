@@ -151,7 +151,7 @@ const purchaseForm = document.getElementById("purchaseForm");
 const closeForm = document.getElementById("closeForm");
 
 // Load JSON Data
-fetch("/demo/equipos_financiados.json")
+fetch("https://caprofuptet.cromstudio.com.ve/tienda/equipos_financiados.json")
   .then(response => response.json())
   .then(data => {
     data.forEach(product => {
