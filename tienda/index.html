@@ -240,17 +240,23 @@ form {
 
         <p>Precio de Venta: <span id="salePrice"></span></p>
         <label for="initial">Monto Inicial (30%):</label>
-        <input type="number" id="initial" name="initial" min="0" step="0.01" readonly>
+        <input type="number" id="initial" name="inicial" min="0" step="0.01" readonly>
         <label for="additionalInitial">¿Desea aumentar la inicial?</label>
-        <input type="number" id="additionalInitial" name="additionalInitial" min="0" step="0.50">
+        <input type="number" id="additionalInitial" name="inicial-adicional" min="0" step="0.50">
 
         <p>Fondo de Protección Financiera: <span id="protectionFund"></span></p>
         <p>Monto Total de Financiamiento: <span id="totalFinancing"></span></p>
         <label for="months">Meses de Financiación (1-5):</label>
-        <input type="number" id="months" name="months" min="1" max="5" required>
+        <input type="number" id="months" name="meses" min="1" max="5" required>
 
         <p>Cuota Mensual: <span id="monthlyQuota"></span></p>
         <p>Cuota Quincenal: <span id="biweeklyQuota"></span></p>
+        
+        
+        <input type="hidden" id="hiddenProtectionFund" name="fondo_proteccion">
+        <input type="hidden" id="hiddenTotalFinancing" name="total_financiamiento">
+        <input type="hidden" id="hiddenMonthlyQuota" name="cuota_mensual">
+        <input type="hidden" id="hiddenBiweeklyQuota" name="cuota_quincenal">
 
         <button type="submit" class="submit-btn">Comprar</button>
       </form>
@@ -282,6 +288,10 @@ form {
           catalog.appendChild(card);
         });
       });
+
+
+
+
 
     function showModal(product) {
       selectedProduct = product;
@@ -322,6 +332,23 @@ form {
       document.getElementById("monthlyQuota").textContent = `$${monthlyQuota.toFixed(2)}`;
       document.getElementById("biweeklyQuota").textContent = `$${biweeklyQuota.toFixed(2)}`;
     }
+
+
+    document.getElementById('purchaseData').addEventListener('submit', (event) => {
+  // Obtener valores calculados de los elementos visibles
+  const protectionFund = document.getElementById('protectionFund').innerText;
+  const totalFinancing = document.getElementById('totalFinancing').innerText;
+  const monthlyQuota = document.getElementById('monthlyQuota').innerText;
+  const biweeklyQuota = document.getElementById('biweeklyQuota').innerText;
+
+  // Actualizar los campos ocultos
+  document.getElementById('hiddenProtectionFund').value = protectionFund;
+  document.getElementById('hiddenTotalFinancing').value = totalFinancing;
+  document.getElementById('hiddenMonthlyQuota').value = monthlyQuota;
+  document.getElementById('hiddenBiweeklyQuota').value = biweeklyQuota;
+});
+
+
 
     closeModal.addEventListener("click", () => {
       modal.style.display = "none";
