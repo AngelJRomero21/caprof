@@ -24,7 +24,10 @@
         "monto_financiamiento": 29.9,
         "cuota_mensual": 5.98,
         "cuota_quincenal": 2.99,
-        "cuota_quincenal_gastos_domiciliacion": 3.65
+        "cuota_quincenal_gastos_domiciliacion": 3.65,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Licuadora 1.30Lts 2 velocidades (Rojo)",
@@ -36,7 +39,10 @@
         "monto_financiamiento": 38.14,
         "cuota_mensual": 7.63,
         "cuota_quincenal": 3.81,
-        "cuota_quincenal_gastos_domiciliacion": 4.47
+        "cuota_quincenal_gastos_domiciliacion": 4.47,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Smart TV HYUNDAI 32\"",
@@ -48,7 +54,10 @@
         "monto_financiamiento": 121.9,
         "cuota_mensual": 24.38,
         "cuota_quincenal": 12.19,
-        "cuota_quincenal_gastos_domiciliacion": 12.85
+        "cuota_quincenal_gastos_domiciliacion": 12.85,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Freidora de Aire Digital 4.5 Lt Daewoo (Negro)",
@@ -60,7 +69,10 @@
         "monto_financiamiento": 54.3,
         "cuota_mensual": 10.86,
         "cuota_quincenal": 5.43,
-        "cuota_quincenal_gastos_domiciliacion": 6.09
+        "cuota_quincenal_gastos_domiciliacion": 6.09,
+        "descripcion": "Freidora de aire Daewoo, de 4.5 litros, protección de sobrecalentamiento, panel digital, temperatura ajustable, temporizador, 8 funciones de menu.",
+        "disponible": "true",
+        "image_url": "https://i.imgur.com/MUZ2GZt.jpeg"
     },
     {
         "producto": "Freidora de Aire Digital 3 Lt Daewoo (Negro)",
@@ -72,7 +84,10 @@
         "monto_financiamiento": 39.45,
         "cuota_mensual": 7.89,
         "cuota_quincenal": 3.94,
-        "cuota_quincenal_gastos_domiciliacion": 4.6
+        "cuota_quincenal_gastos_domiciliacion": 4.6,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Batidora de Mano (Plata/Negro) Daewoo",
@@ -84,7 +99,10 @@
         "monto_financiamiento": 16.41,
         "cuota_mensual": 3.28,
         "cuota_quincenal": 1.64,
-        "cuota_quincenal_gastos_domiciliacion": 2.3
+        "cuota_quincenal_gastos_domiciliacion": 2.3,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Batidora de Mano y Pedestal 6 vel (Blanco) Oster",
@@ -96,7 +114,10 @@
         "monto_financiamiento": 37.93,
         "cuota_mensual": 7.59,
         "cuota_quincenal": 3.79,
-        "cuota_quincenal_gastos_domiciliacion": 4.45
+        "cuota_quincenal_gastos_domiciliacion": 4.45,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Juego de Ollas Antiadherente 10 pzas (Gris Oscuro) Hamilton Beach",
@@ -108,7 +129,10 @@
         "monto_financiamiento": 54.3,
         "cuota_mensual": 10.86,
         "cuota_quincenal": 5.43,
-        "cuota_quincenal_gastos_domiciliacion": 6.09
+        "cuota_quincenal_gastos_domiciliacion": 6.09,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     },
     {
         "producto": "Juego de Sartenes Antiadherentes 2 Pzas (Gris) Yalai",
@@ -120,6 +144,9 @@
         "monto_financiamiento": 13.54,
         "cuota_mensual": 2.71,
         "cuota_quincenal": 1.35,
-        "cuota_quincenal_gastos_domiciliacion": 2.01
+        "cuota_quincenal_gastos_domiciliacion": 2.01,
+        "descripcion": "Camiseta ligera, ideal para actividades deportivas. Hecha de material transpirable y cómodo.",
+        "disponible": "true",
+        "image_url": "https://www.ejemplo.com/images/camiseta_deportiva.jpg"
     }
 ]
