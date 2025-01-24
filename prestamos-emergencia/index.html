@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Préstamo de Emergencia  - Caja de Ahorro de los Profesores de la Universidad Politecnica Territorial del Estado Trujillo "Mario Briceño Iragorry"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:url" content="https://caprofuptet.cromstudio.com.ve/sistema/" />
+    <meta property="og:title" content="Prestamo de Emergencia - CAJA DE AHORRO DE LOS PROFESORES DE LA UNIVERSIDAD POLITECNICA TERRITORIAL DEL ESTADO TRUJILLO" />
+    <meta property="og:description" content="Prestamo de Emergencia CAPROF-UPTET" />
+    <meta property="og:image" content="https://i.imgur.com/AlOKrDB.png" />
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L419MTZYJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L419MTZYJQ');
+</script>
+
+    
+   
+   
+   <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f5f6fa;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #0d6efd;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #dcdcdc;
+        }
+
+        #hero {
+            background-image: url('https://i.imgur.com/Pub7n31.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        #hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        section h2 {
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #0d6efd;
+        }
+
+        section p {
+            text-align: center;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        footer a:hover {
+            color: #dcdcdc;
+        }
+
+        .pdf-list a {
+            color: #0d6efd;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        .container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.pdf-list {
+    display: inline-block; /* Hace que la lista se comporte como un bloque en línea */
+    text-align: left; /* Alinea el texto de la lista a la izquierda */
+}
+
+        ul {
+            display: flex;
+    flex-direction: column; /* Establecemos la dirección de los elementos como columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    
+        }
+
+        .contact-info  {
+            display: flex;
+    flex-direction: column; /* Establecemos la dirección de los elementos como columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    
+        }
+
+        .informacion  {
+            display: flex;
+            flex-direction: column; /* Establecemos la dirección de los elementos como columna */
+            justify-content: center; /* Centra los elementos verticalmente */
+            align-items: flex-start; /* Alinea los elementos a la izquierda */
+    
+        }
+
+        .galeria-imagenes img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .galeria-imagenes img:hover {
+            transform: scale(1.05);
+        }
+
+        .service-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info p {
+            margin: 0;
+        }
+
+
+
+        /* Header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #0d6efd;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(225, 95%, 50%, 0.459), hsla(194, 96%, 36%, 0.664)), url(https://i.imgur.com/Pub7n31.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(225, 95%, 50%, 0.459), hsla(194, 96%, 36%, 0.664)), url(https://i.imgur.com/Pub7n31.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About us */
+
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+}
+a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">CAPROFUPTET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#informacion">¿Quiénes Somos?</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/tienda/">Tienda Virtual</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rifas">Rifas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#direccion">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="https://caprofuptet.cromstudio.com.ve/sistema/">Acceso</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header>
+            <section class="textos-header">
+                <h1>Préstamos de Emergencia</h1>
+            </section>
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #fff;"></path>
+                </svg></div>
+        </header>
+     
+        <section id="direccion">
+            <div class="container">
+                <h2>Préstamos de Emergencia</h2>
+                <div class="contact-info">
+                    <p>La Caja de Ahorro en la medida de sus posibilidades financieras concederá préstamos de emergencia, previa aprobación de la asamblea de asociados, cuando se presente atraso en los pagos por parte de la Universidad Politécnica Territorial del Estado Trujillo "Mario Briceño Iragorry" (UPTET) en los sueldos a los docentes.</p>
+                    <p>La cancelación del mismo se realizará al momento del pago de las quincenas correspondientes, con la misma tasa de interés que rigen a los créditos a corto plazo.</p>
+                    <p>También podrá conceder préstamos de emergencia, cuando se presenten casos de salud; fallecimiento de padres, cónyuges o de los hijos, previa justificación ante el Consejo de Administración y aprobados por este con garantía de fianzas de fiel cumplimiento.</p>
+                    <p>El lapso de cancelación no podrá exceder de doce (12) meses y el interés aplicado será el 12% anual</p>                      
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 (CAPROFUPTET), RIF J-30339150-8. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-end social-icons">
+                    <a href="https://www.instagram.com/caprofuptet/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/584129899556" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://cromstudio.com.ve/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
