@@ -154,7 +154,7 @@ var nombreUsuario = user["nombre"];
             <input type="hidden" name="_subject" value="Solicitud de Crédito 80% Estatutario">
             <input type="hidden" name="_template" value="box">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="/solicitud-enviada.html">
+            <input type="hidden" name="_next" value="https://caprofuptet.cromstudio.com.ve/solicitud-enviada/">
             <!-- Campo para el tipo de crédito -->
             <input type="hidden" id="creditType" name="Tipo de Credito" readonly>
             <!-- Campo para el monto calculado -->
@@ -192,7 +192,7 @@ var nombreUsuario = user["nombre"];
          <input type="hidden" name="_subject" value="Solicitud de Crédito F.A.V.">
           <input type="hidden" name="_template" value="box">
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://tudominio.co/gracias.html">
+          <input type="hidden" name="_next" value="https://caprofuptet.cromstudio.com.ve/solicitud-enviada/">
         <h3>Solicitud Crédito F.A.V</h3>
         <input type="hidden" id="cedula" name="cedula" readonly />
         <label for="monto">Monto a solicitar ($):</label>
