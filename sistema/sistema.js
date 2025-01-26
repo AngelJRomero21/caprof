@@ -346,7 +346,6 @@ document.addEventListener("DOMContentLoaded", () => {
 // Función para calcular los valores al hacer clic en "Calcular"
 function calcularFav() {
   const monto = parseFloat(document.getElementById("monto").value);
-  const tipoPago = document.getElementById("tipoPago").value;
   const plazo = parseInt(document.getElementById("plazo").value);
 
   // Validar monto
