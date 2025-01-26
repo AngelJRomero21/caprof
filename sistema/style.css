@@ -1,0 +1,480 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.flex-caes {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.img-izq {
+    width: 60%;
+}
+
+
+.img-izq img {
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+}
+.container {
+    text-align: center;
+    width: 40%;
+}
+.container-two {
+    width: 90%;
+    margin: auto;
+
+
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    width: 100%;    
+    padding-bottom: 30px;
+
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+    max-width: 100%;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: fit-content;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+.consultar {
+    background-color: #3498db;
+    color: white;
+}
+
+.calcular {
+    background-color: #007acc;
+    color: white;
+}
+
+.registrarse {
+    background-color: #e74c3c;
+    color: white;
+}
+/* */
+.button svg {
+    max-width: 30px;
+    width: 100%;
+    max-height: 30px;
+
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 5px;
+  background-color: #007ACC;
+  outline: 3px #007ACC solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 400ms;
+  width: 160px;
+}
+.button .text {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  transition: 400ms;
+}
+.button svg path {
+  transition: 400ms;
+}
+.button:hover {
+  background-color: transparent;
+}
+.button:hover .text {
+  color: #ffffff;
+}
+.button:hover svg path {
+  fill: #ffffff;
+}
+.button.csls{
+    background-color: #007acc;
+    outline: 3px #007acc solid;
+}
+.button.calccred{
+    background-color: #e49c2c;
+    outline: 3px #e49c2c solid;
+}
+.button.regdig{
+    background-color: #327ef9;
+    outline: 3px #327ef9 solid;
+}
+a{
+    text-decoration: none;
+
+}
+.detailedBalances {
+    display: flex;
+    justify-content: space-between; /* Alinea los saldos horizontalmente */
+    gap: 10px; /* Espacio entre cada saldo */
+}
+.balanceDetail {
+    text-align: center;
+}
+.label {
+    font-size: 14px;
+    color: #ffffff;
+}
+.value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.walletBalanceCard {
+    max-width: 400px;
+    width: 100%;
+  height: 110px;
+  background-color: #173259;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.svgwrapper {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.svgwrapper svg {
+  width: 100%;
+}
+.balancewrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 180px;
+  gap: 0px;
+}
+.balanceHeading {
+  font-size: 16px;
+  color: rgb(214, 214, 214);
+  font-weight: 100;
+  letter-spacing: 0.6px;
+}
+.balance {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.addmoney {
+  padding: 1px 10px;
+  border-radius: 7px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 700;
+}
+.addmoney:hover {
+  background-color: whitesmoke;
+  color: #007acc;
+}
+.plussign {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div#resultado img {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    border: 6px solid #007acc;
+}
+.hide{
+    display: none !important;
+}
+p.saludo {
+    margin-bottom: 0;
+}
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* formulario */
+.form_main {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 30px 30px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+}
+.heading {
+  font-size: 25px;
+  color: #2e2e2e;
+  font-weight: 700;
+  margin: 15px 0 30px 0;
+}
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inputIcon {
+  position: absolute;
+  left: 10px;
+}
+.inputField {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(173, 173, 173);
+  border-radius: 30px;
+  margin: 10px 0;
+  color: black;
+  font-size: .8em;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+.inputField:focus {
+  outline: none;
+  border-bottom: 2px solid #357f26;
+}
+.inputField::placeholder {
+  color: rgb(80, 80, 80);
+  font-size: 1em;
+  font-weight: 500;
+
+}
+#button {
+  position: relative;
+  width: 100%;
+  border: 2px solid #007acc;
+  background-color: #007acc;
+  height: 40px;
+  color: white;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+#button::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.253);
+  height: 100%;
+  width: 150px;
+  top: 0;
+  left: -200px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 100px;
+  filter: blur(10px);
+  transition-duration: .5s;
+}
+#button:hover::after {
+  transform: translateX(600px);
+  transition-duration: .5s;
+}
+.signupContainer {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.signupContainer p {
+  font-size: .9em;
+  font-weight: 500;
+  color: black;
+}
+.signupContainer a {
+  font-size: .7em;
+  font-weight: 500;
+  background-color: #2e2e2e;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+.formloginusr {
+    display: flex;
+    justify-content: center;
+}
+/* formulario */
+@media screen and (min-width: 480px) and (max-width: 1240px) {
+    .options {
+        flex-direction: column;
+
+    }
+}
+@media (max-width: 480px) {
+    .btn {
+        padding: 12px;
+        font-size: 1rem;
+    }
+    .img-izq {
+        display: none;
+    }
+    .container {
+        width: 100%;
+    }
+    .options {
+        flex-direction: column;
+
+    }
+    .walletBalanceCard{
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px 0;
+    }
+    .balancewrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 180px;
+    gap: 0px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+}
+.button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007acc;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+        .extra-buttons {
+            margin-top: 10px;
+        }
+        .extra-buttons .button {
+            margin: 10px 0;
+            background-color: #1c53a0;
+        }
+/* Estilo del modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+/* Contenido del modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+/* El botón de cerrar */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+/* Botones extra */
+.hidden {
+    display: none;
+}
+.overlay { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            background: rgba(0, 0, 0, 0.5); 
+            z-index: 999; 
+        }
+ /* Estilos del modal */
+    .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0, 0, 0, 0.5); }
+    .modal-content { background-color: white; margin: 10% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; border-radius: 8px; position: relative; }
+    .modal-content h3 { margin-top: 0; }
+    .modal-content input, .modal-content select, .modal-content button { width: 100%; margin: 10px 0; padding: 8px; box-sizing: border-box; }
+    .modal-content button { background-color: #007acc; color: white; border: none; cursor: pointer; }
+    .modal-content button:hover { background-color: #007acc; }
+    .close { position: absolute; top: 10px; right: 15px; font-size: 20px; cursor: pointer; color: #aaa; }
+    .close:hover { color: black; }
+    .modal-content.error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+      
