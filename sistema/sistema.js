@@ -196,22 +196,17 @@ var nombreUsuario = user["nombre"];
             <br>
             <label for="monto">Monto a solicitar ($):</label>
             <input type="number" id="monto" name="monto" min="1" max="160" required onchange="calcularFav()">
-            <label for="tipoPago">Seleccione los meses:</label>
-            <select id="tipoPago" name="tipoPago" required onchange="calcularFav()">
-                <option value="mensual">Mensual</option>
-                <option value="quincenal">Quincenal</option>
-            </select>
-            <label for="plazo">Número de cuotas:</label>
-            <select id="plazo" name="plazo" required onchange="calcularFav()">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-            </select>
+          <label for="plazo">Número de meses:</label>
+<select id="plazo" name="plazo" required onchange="calcularFav()">
+    <option value="1">1 mes</option>
+    <option value="2">2 meses</option>
+    <option value="3">3 meses</option>
+    <option value="4">4 meses</option>
+    <option value="5">5 meses</option>
+    <option value="6">6 meses</option>
+    <option value="7">7 meses</option>
+    <option value="8">8 meses</option>
+</select>
             <label for="cuotaMensual">Cuota Mensual:</label>
             <input type="text" id="cuotaMensual" name="cuotaMensual" readonly>
             <label for="cuotaQuincenal">Cuota Quincenal:</label>
