@@ -143,8 +143,7 @@ var nombreUsuario = user["nombre"];
 <div class="extra-buttons hidden" id="extraButtons">
     <button class="button" onclick="showForm('80% Haberes', user)">80% Haberes</button>
     <button class="button" onclick="showFavForm()">Créditos F.A.V</button>
-    <button class="button" onclick="tiendaVirtual()"">Tienda Virtual</button>
-</div>
+    <button class="button" onclick="window.location.href='https://caprofuptet.cromstudio.com.ve/tienda'">Tienda Virtual</button></div>
 <!-- Modal de formulario -->
 <div id="modal" class="modal hidden">
     <div class="modal-content">
