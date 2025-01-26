@@ -183,6 +183,7 @@ var nombreUsuario = user["nombre"];
         </form>
     </div>
 </div>
+
 <div id="favFormModal" class="modal hidden">
     <div class="modal-content">
         <span class="close" onclick="closeForm('favFormModal')">&times;</span>
