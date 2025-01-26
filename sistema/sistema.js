@@ -183,42 +183,44 @@ var nombreUsuario = user["nombre"];
         </form>
     </div>
 </div>
- <!-- Modal del formulario -->
-  <div id="favFormModal" class="modal hidden">
+<div id="favFormModal" class="modal hidden">
     <div class="modal-content">
-      <span class="close" onclick="closeForm('favFormModal')">&times;</span>
-      <form action="https://formsubmit.co/99738e359615e61c3ed0986f558f40a3" method="POST" id="favForm">
-         <input type="hidden" name="_subject" value="Solicitud de Crédito F.A.V.">
-          <input type="hidden" name="_template" value="box">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://caprofuptet.cromstudio.com.ve/solicitud-enviada/">
-        <h3>Solicitud Crédito F.A.V</h3>
-        <input type="hidden" id="cedula" name="cedula" readonly />
-        <label for="monto">Monto a solicitar ($):</label>
-        <input type="number" id="monto" name="monto" min="1" max="160" required/>
-        <label for="tipoPago">Forma de Pago:</label>
-        <select id="tipoPago" name="tipoPago" required onchange="updatePaymentOptions()">
-          <option value="" disabled selected>Seleccione una opción</option>
-          <option value="mensual">Mensualmente</option>
-          <option value="quincenal">Quincenalmente</option>
-        </select>
-        <label for="plazo">Plazo (meses/quincenas):</label>
-        <select id="plazo" name="plazo" required onchange="calcularFav()">
-          <!-- Opciones generadas dinámicamente -->
-        </select>
-        <div>
-  <p>Interés por Cobrar (3% mensual): <span id="interesCobrar">$0.00</span></p>
-  <p>Gastos Bancarios por entrega (3%): <span id="gastosBancarios">$0.00</span></p>
-  <p>Gastos Domiciliación Bancaria (0.25%): <span id="gastosDomiciliacion">$0.00</span></p>
-  <p>Fondo de Protección Financiera (3%): <span id="fondoProteccion">$0.00</span></p>
-  <p>Fondo de Garantía: <span id="fondoGarantia">$2.00</span></p>
-  <p>Gastos Administrativos (2%): <span id="gastosAdministrativos">$0.00</span></p>
-  <p>Total a Pagar: <span id="totalPagar">$0.00</span></p>
-</div>
-        <button type="submit">Enviar Solicitud</button>
-      </form>
+        <span class="close" onclick="closeForm('favFormModal')">&times;</span>
+        <h2 id="form-title">Solicitud Crédito F.A.V.</h2>
+        <form id="favForm" action="https://formsubmit.co/99738e359615e61c3ed0986f558f40a3" method="POST">
+            <input type="hidden" name="_subject" value="Solicitud de Crédito F.A.V.">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://caprofuptet.cromstudio.com.ve/solicitud-enviada/">
+            <input type="hidden" id="cedula" name="cedula" readonly>
+            <br>
+            <label for="monto">Monto a solicitar ($):</label>
+            <input type="number" id="monto" name="monto" min="1" max="160" required onchange="calcularFav()">
+            <label for="tipoPago">Seleccione los meses:</label>
+            <select id="tipoPago" name="tipoPago" required onchange="calcularFav()">
+                <option value="mensual">Mensual</option>
+                <option value="quincenal">Quincenal</option>
+            </select>
+            <label for="plazo">Número de cuotas:</label>
+            <select id="plazo" name="plazo" required onchange="calcularFav()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            <label for="cuotaMensual">Cuota Mensual:</label>
+            <input type="text" id="cuotaMensual" name="cuotaMensual" readonly>
+            <label for="cuotaQuincenal">Cuota Quincenal:</label>
+            <input type="text" id="cuotaQuincenal" name="cuotaQuincenal" readonly>
+            <p><strong>SE INCLUYEN GASTOS BANCARIOS.</strong></p>
+            <button type="submit">Enviar Solicitud</button>
+        </form>
     </div>
-  </div>
+</div>
   <!-- Modal de error -->
   <div id="favErrorModal" class="modal hidden">
     <div class="modal-content error">
@@ -350,35 +352,22 @@ function calcularFav() {
   const monto = parseFloat(document.getElementById("monto").value);
   const tipoPago = document.getElementById("tipoPago").value;
   const plazo = parseInt(document.getElementById("plazo").value);
+
   // Validar monto
   if (isNaN(monto) || monto < 1 || monto > 160) {
-    alert("El monto debe estar entre 1$ y 160$.");
-    return;
+      alert("El monto debe estar entre 1$ y 160$.");
+      return;
   }
-  // Calcular meses según el tipo de pago
-  let meses = 0;
-  if (tipoPago === "mensual") {
-    meses = plazo; // Usamos el valor de meses directamente
-  } else if (tipoPago === "quincenal") {
-    meses = Math.ceil(plazo / 2); // Convertir quincenas a meses (dividiendo entre 2)
-  }
-  // Calcular los cargos
-  const interesCobrar = monto * 0.03 * meses; // Interés mensual
-  const gastosBancarios = monto * 0.03;
-  const gastosDomiciliacion = monto * 0.0025;
-  const fondoProteccion = monto * 0.03;
-  const fondoGarantia = 2; // Fondo de garantía fijo
-  const gastosAdministrativos = monto * 0.02;
-  // Calcular el total a pagar
-  const totalPagar = monto + interesCobrar + gastosBancarios + gastosDomiciliacion + fondoProteccion + fondoGarantia + gastosAdministrativos;
-  // Mostrar los resultados en el HTML
-  document.getElementById("interesCobrar").textContent = `$${interesCobrar.toFixed(2)}`;
-  document.getElementById("gastosBancarios").textContent = `$${gastosBancarios.toFixed(2)}`;
-  document.getElementById("gastosDomiciliacion").textContent = `$${gastosDomiciliacion.toFixed(2)}`;
-  document.getElementById("fondoProteccion").textContent = `$${fondoProteccion.toFixed(2)}`;
-  document.getElementById("fondoGarantia").textContent = `$${fondoGarantia.toFixed(2)}`;
-  document.getElementById("gastosAdministrativos").textContent = `$${gastosAdministrativos.toFixed(2)}`;
-  document.getElementById("totalPagar").textContent = `$${totalPagar.toFixed(2)}`;
+
+  // Calcular la cuota mensual
+  const cuotaMensual = 4 + 2.4 + (monto * 1.138) / plazo;
+
+  // Calcular la cuota quincenal
+  const cuotaQuincenal = cuotaMensual / 2;
+
+  // Mostrar las cuotas en el formulario
+  document.getElementById("cuotaMensual").value = `$ ${cuotaMensual.toFixed(2)}`;
+  document.getElementById("cuotaQuincenal").value = `$ ${cuotaQuincenal.toFixed(2)}`;
 }
 function tiendaVirtual() {
             window.location.href = "/tienda/"; // URL de la página a la que quieres ir
