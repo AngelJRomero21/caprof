@@ -9,28 +9,93 @@
 
 <url>
   <loc>https://caprofuptet.cromstudio.com.ve/</loc>
-  <lastmod>2025-01-16T21:53:00+00:00</lastmod>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://caprofuptet.cromstudio.com.ve/tienda/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/contacto/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://caprofuptet.cromstudio.com.ve/sistema/</loc>
-  <lastmod>2025-01-16T21:53:00+00:00</lastmod>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/funeraria/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/prestamos/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/rifas/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://caprofuptet.cromstudio.com.ve/ACTA%2074.pdf</loc>
-  <lastmod>2025-01-16T21:53:00+00:00</lastmod>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://caprofuptet.cromstudio.com.ve/ACTA%2073.pdf</loc>
-  <lastmod>2025-01-16T21:53:00+00:00</lastmod>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://caprofuptet.cromstudio.com.ve/estatutoscaprof.pdf</loc>
-  <lastmod>2025-01-16T21:53:00+00:00</lastmod>
+  <loc>https://caprofuptet.cromstudio.com.ve/ACTA%2072.pdf</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/credito-ahorro-estatutario/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/credito-haberes-fiadores/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/credito-hipotecario/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/credito-para-vehiculo/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/prestamos-extraordinarios/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/prestamos-solidarios/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/prestamos-emergencia/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://caprofuptet.cromstudio.com.ve/prestamos-con-garantia-hipotecaria/</loc>
+  <lastmod>2025-01-26T16:46:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
