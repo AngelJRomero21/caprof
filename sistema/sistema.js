@@ -358,7 +358,7 @@ function calcularFav() {
   const valorA = monto * 0.038 / plazo;
   const valorB = monto * 0.03 / plazo;
   const valorC = 4 / plazo;
-  const valorD = 2.4 / plazo;
+  const valorD = monto * 0.02 / plazo;
   const valorE = monto * 0.03 * plazo + monto / plazo;
 
   // Calcular la cuota mensual
