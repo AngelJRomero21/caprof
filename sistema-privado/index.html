@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard CAPROFUPTET</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Contenedor principal */
+      .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Buscador */
+        #buscador {
+            width: 100%;
+            padding: 12px 20px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        /* Lista de socios */
+        #listaSocios {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ajusta las columnas automáticamente */
+            grid-gap: 20px;
+        }
+
+        #listaSocios li {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #listaSocios li:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Modal */
+      .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+      .modal-content {
+            background-color: #fff;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+
+      .close {
+            color: #aaa;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Información del socio */
+        #infoSocio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 15px;
+        }
+
+      .saldo-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+      .saldo-box h3 {
+            margin-top: 0;
+        }
+
+             /* Información del socio */
+             #infoSocio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 15px;
+        }
+
+      .info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+      .info-box h3 {
+            margin-top: 0;
+        }
+
+      .cuenta-principal {
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+        }
+
+                /* Filtro por núcleo */
+                #filtroNucleo {
+            margin-bottom: 20px;
+        }
+            /* Filtros */
+    #filtros {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    #filtros div {
+      width: 48%;
+    }
+
+    #botonesReportes {
+            margin-bottom: 20px;
+        }
+
+                /* Botones de reportes */
+                #botonesReportes {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        #botonesReportes button {
+            flex: 1 0 calc(50% - 10px); /* Distribuir botones equitativamente */
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard CAPROFUPTET</h1>
+
+        <input type="text" id="buscador" placeholder="Buscar socio...">
+
+        <div id="filtros">
+            <div id="filtroNucleo">
+                <label for="selectNucleo">Filtrar por Núcleo:</label>
+                <select id="selectNucleo">
+                    <option value="">Todos</option>
+                </select>
+            </div>
+            <div id="filtroFuneraria">
+                <label for="selectFuneraria">Filtrar por Funeraria:</label>
+                <select id="selectFuneraria">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="botonesReportes">
+            <button onclick="generarReporteAhorroVoluntario()">Reporte de Ahorro Voluntario</button>
+            <button onclick="generarReporteCuotaMensual()">Reporte de Cuota Mensual</button>
+            <button onclick="generarReporteDeudores()">Reporte de Deudores</button>
+            <button onclick="generarReporteFunerarias()">Reporte de Funerarias</button>
+        </div>
+
+        <ul id="listaSocios"></ul>
+
+        <div id="modalSocio" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal()">&times;</span>
+                <h2 id="nombreSocio"></h2>
+                <div id="infoSocio"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+      const listaSocios = document.getElementById('listaSocios');
+    const modalSocio = document.getElementById('modalSocio');
+    const infoSocio = document.getElementById('infoSocio');
+    const buscador = document.getElementById('buscador');
+    const nombreSocio = document.getElementById('nombreSocio');
+    const selectNucleo = document.getElementById('selectNucleo');
+    const selectFuneraria = document.getElementById('selectFuneraria'); // Nuevo elemento para el filtro
+
+    fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
+    .then(response => response.json())
+    .then(data => {
+        // Obtener la lista de núcleos únicos
+        const nucleos = [...new Set(data.map(socio => socio.nucleo))];
+        nucleos.forEach(nucleo => {
+          const option = document.createElement('option');
+          option.value = nucleo;
+          option.textContent = nucleo;
+          selectNucleo.appendChild(option);
+        });
+
+        // Obtener la lista de empresas funerarias únicas (suponiendo que la clave en el JSON es "empresa-funeraria")
+        const empresasFunerarias = [...new Set(data.map(socio => socio["empresa-funeraria"]))];
+        empresasFunerarias.forEach(empresa => {
+          const option = document.createElement('option');
+          option.value = empresa;
+          option.textContent = empresa;
+          selectFuneraria.appendChild(option);
+        });
+
+        mostrarSocios(data);
+        buscador.addEventListener('input', () => buscarSocio(data));
+        selectNucleo.addEventListener('change', () => filtrarSocios(data));
+        selectFuneraria.addEventListener('change', () => filtrarSocios(data)); // Escuchar cambios en el select
+      });
+
+
+        function mostrarSocios(socios) {
+            listaSocios.innerHTML = '';
+            socios.forEach(socio => {
+                const li = document.createElement('li');
+                li.textContent = `${socio.cedula} - ${socio.nombre}`;
+                li.addEventListener('click', () => mostrarInformacionSocio(socio));
+                listaSocios.appendChild(li);
+            });
+        }
+
+        function mostrarInformacionSocio(socio) {
+            infoSocio.innerHTML = '';
+            nombreSocio.textContent = socio.nombre;
+
+            // Mostrar la información en cuadros
+            const informacion = [
+                { clave: "cedula", label: "Cédula" },
+                { clave: "nucleo", label: "Núcleo" },
+                { clave: "fecha-ingreso", label: "Fecha de Ingreso" },
+                { clave: "correo-electronico", label: "Correo Electrónico", enlace: `mailto:${socio["correo-electronico"]}` },
+                { clave: "telefono-1", label: "Teléfono 1", enlace: `https://wa.me/${socio["telefono-1"]}` },
+                { clave: "telefono-2", label: "Teléfono 2", enlace: `https://wa.me/${socio["telefono-2"]}` },
+                { clave: "ahorro-voluntario", label: "Ahorro Voluntario", tipo: "saldo" },
+                { clave: "cuota-mensual", label: "Cuota Mensual", tipo: "saldo" },
+                { clave: "ahorro-socio", label: "Ahorro Socio", tipo: "saldo" },
+                { clave: "aporte-patronal", label: "Aporte Patronal", tipo: "saldo" },
+                //... otra información que quieras mostrar
+            ];
+
+            
+            informacion.forEach(info => {
+                if (socio[info.clave]!== "0.00" && socio[info.clave]!== "0" && socio[info.clave]!== "") {
+                    const divInfo = document.createElement('div');
+                    divInfo.classList.add('info-box');
+                    if (info.tipo === "saldo") {
+                        divInfo.innerHTML = `<h3>${info.label}</h3><p>${socio[info.clave]}</p>`;
+                    } else if (info.enlace) {
+                        divInfo.innerHTML = `<h3>${info.label}</h3><a href="${info.enlace}" target="_blank">${socio[info.clave]}</a>`;
+                    } else {
+                        divInfo.innerHTML = `<h3>${info.label}</h3><p>${socio[info.clave]}</p>`;
+                    }
+                    infoSocio.appendChild(divInfo);
+                }
+            });
+
+            // Mostrar la cuenta principal en un cuadro destacado
+            const divCuentaPrincipal = document.createElement('div');
+            divCuentaPrincipal.classList.add('info-box', 'cuenta-principal');
+            divCuentaPrincipal.innerHTML = `<h3>Cuenta Principal</h3><p>${socio["cuenta-principal"]}</p>`;
+            infoSocio.appendChild(divCuentaPrincipal);
+
+            modalSocio.style.display = 'block';
+
+
+
+
+            saldos.forEach(saldo => {
+                if (saldo.valor!== "0.00" && saldo.valor!== "0") {
+                    const divSaldo = document.createElement('div');
+                    divSaldo.classList.add('saldo-box');
+                    divSaldo.innerHTML = `<h3>${saldo.nombre}</h3><p>${saldo.valor}</p>`;
+                    infoSocio.appendChild(divSaldo);
+                }
+            });
+
+            // Mostrar el resto de la información (puedes agregar más lógica aquí para mostrar u ocultar información)
+            for (let clave in socio) {
+                if (socio[clave]!== "0.00" && socio[clave]!== "0" &&!["ahorro-socio", "aporte-patronal", "ahorro-voluntario"].includes(clave)) {
+                    const p = document.createElement('p');
+                    p.innerHTML = `<b>${clave}:</b> ${socio[clave]}`;
+                    infoSocio.appendChild(p);
+                }
+            }
+
+            modalSocio.style.display = 'block';
+        }
+
+
+
+
+        function cerrarModal() {
+            modalSocio.style.display = 'none';
+        }
+        
+
+
+        function buscarSocio(socios) {
+      const textoBusqueda = buscador.value.toLowerCase();
+      const nucleoSeleccionado = selectNucleo.value;
+      const funerariaSeleccionada = selectFuneraria.value; // Obtener la funeraria seleccionada
+
+      const sociosFiltrados = socios.filter(socio => {
+        return socio.nombre.toLowerCase().includes(textoBusqueda) || socio.cedula.includes(textoBusqueda);
+        const coincideNucleo = nucleoSeleccionado === "" || socio.nucleo === nucleoSeleccionado;
+        const coincideFuneraria = funerariaSeleccionada === "" || socio["empresa-funeraria"] === funerariaSeleccionada; // Filtrar por funeraria si se seleccionó una
+        return coincideNombre && coincideCedula && coincideNucleo && coincideFuneraria;
+      });
+      mostrarSocios(sociosFiltrados);
+    }
+
+    function filtrarSocios(socios) {
+      const nucleoSeleccionado = selectNucleo.value;
+      const funerariaSeleccionada = selectFuneraria.value; // Obtener la funeraria seleccionada
+
+      const sociosFiltrados = socios.filter(socio => {
+        const coincideNucleo = nucleoSeleccionado === "" || socio.nucleo === nucleoSeleccionado;
+        const coincideFuneraria = funerariaSeleccionada === "" || socio["empresa-funeraria"] === funerariaSeleccionada; // Filtrar por funeraria si se seleccionó una
+        return coincideNucleo && coincideFuneraria;
+      });
+      mostrarSocios(sociosFiltrados);
+    }
+
+
+    function generarReporteAhorroVoluntario() {
+            fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
+              .then(response => response.json())
+              .then(data => {
+                    const sociosAhorro = data.filter(socio => parseFloat(socio["ahorro-voluntario"]) > 0);
+                    let reporteHTML = '<h2>Reporte de Ahorro Voluntario</h2>';
+                    reporteHTML += '<table><thead><tr><th>Nombre</th><th>Cédula</th><th>Núcleo</th><th>Ahorro Voluntario</th></tr></thead><tbody>';
+                    let totalAhorro = 0;
+                    const ahorroPorNucleo = {};
+                    sociosAhorro.forEach(socio => {
+                        const ahorro = parseFloat(socio["ahorro-voluntario"]);
+                        totalAhorro += ahorro;
+                        ahorroPorNucleo[socio.nucleo] = (ahorroPorNucleo[socio.nucleo] || 0) + ahorro;
+                        reporteHTML += `<tr><td>${socio.nombre}</td><td>${socio.cedula}</td><td>${socio.nucleo}</td><td>${ahorro}</td></tr>`;
+                    });
+                    reporteHTML += '</tbody></table>';
+                    reporteHTML += `<p><b>Total Ahorro:</b> ${totalAhorro}</p>`;
+                    reporteHTML += '<h3>Total por Núcleo</h3>';
+                    for (let nucleo in ahorroPorNucleo) {
+                        reporteHTML += `<p><b>${nucleo}:</b> ${ahorroPorNucleo[nucleo]}</p>`;
+                    }
+                    abrirVentanaReporte(reporteHTML);
+                });
+        }
+
+        function generarReporteCuotaMensual() {
+            fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
+              .then(response => response.json())
+              .then(data => {
+                    let totalCuotaMensual = 0;
+                    data.forEach(socio => {
+                        totalCuotaMensual += parseFloat(socio["cuota-mensual"]);
+                    });
+                    const reporteHTML = `<h2>Reporte de Cuota Mensual</h2><p><b>Total a Recaudar:</b> ${totalCuotaMensual}</p>`;
+                    abrirVentanaReporte(reporteHTML);
+                });
+        }
+
+        function abrirVentanaReporte(html) {
+            const nuevaVentana = window.open();
+            nuevaVentana.document.write(html);
+        }
+
+
+
+
+
+ 
+
+
+
+
+        function generarReporteDeudores() {
+    fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
+      .then(response => response.json())
+      .then(data => {
+            let reporteHTML = '<h2>Reporte de Deudores</h2>';
+
+            // Deudores de Equipo Financiado
+            let totalEquipoFinanciado = 0;
+            reporteHTML += '<h3>Deudores de Equipo Financiado</h3>';
+            reporteHTML += '<table><thead><tr><th>Nombre</th><th>Cédula</th><th>Equipo</th><th>Saldo Pendiente</th><th>N° Cuotas</th><th>Monto Cuota</th><th>Abonado</th><th>Fecha Crédito</th></tr></thead><tbody>';
+            data.forEach(socio => {
+                if (parseFloat(socio["saldo-pendiente-de-equipo-financiado"]) > 0) {
+                    const saldoPendiente = parseFloat(socio["saldo-pendiente-de-equipo-financiado"]);
+                    totalEquipoFinanciado += saldoPendiente;
+
+                    // Escapar comillas y barras en el nombre del equipo
+                    const equipo = socio["equipo-financiado"].replace(/"/g, '&quot;').replace(/\//g, '&#x2F;');
+
+                    // Obtener la fecha del crédito (corregir nombre de la clave)
+                    const fechaCredito = socio["fecha-solicitud-equipo-financiado"]; 
+
+                    reporteHTML += `<tr>
+                        <td>${socio.nombre}</td>
+                        <td>${socio.cedula}</td>
+                        <td>${equipo}</td>
+                        <td>${saldoPendiente}</td>
+                        <td>${socio["cuotas-equipo-financiado"]}</td>
+                        <td>${socio["monto-cuotas-equipo-financiado"]}</td>
+                        <td>${parseFloat(socio["monto-equipo-financiado"]) - saldoPendiente}</td>
+                        <td>${fechaCredito}</td>
+                    </tr>`;
+                }
+            });
+            reporteHTML += '</tbody></table>';
+            reporteHTML += `<p><b>Total Equipo Financiado:</b> ${totalEquipoFinanciado}</p>`;
+
+
+
+
+            // Deudores de Crédito Estatutario
+            let totalCreditoEstatutario = 0;
+            reporteHTML += '<h3>Deudores de Crédito Estatutario</h3>';
+            reporteHTML += '<table><thead><tr><th>Nombre</th><th>Cédula</th><th>Saldo Pendiente</th><th>N° Cuotas</th><th>Monto Cuota</th><th>Abonado</th><th>Fecha Crédito</th></tr></thead><tbody>';
+            data.forEach(socio => {
+                if (parseFloat(socio["saldo-pendiente-credito-estatutario"]) > 0) {
+                    const saldoPendiente = parseFloat(socio["saldo-pendiente-credito-estatutario"]);
+                    totalCreditoEstatutario += saldoPendiente;
+                    reporteHTML += `<tr>
+                        <td>${socio.nombre}</td>
+                        <td>${socio.cedula}</td>
+                        <td>${saldoPendiente}</td>
+                        <td>${socio["cuotas-estatutario"]}</td>
+                        <td>${socio["monto-cuota-credito-estatutario"]}</td>
+                        <td>${parseFloat(socio["credito-estatutario"]) - saldoPendiente}</td>
+                        <td>${socio["fecha-solicitud-credito-estatutario"]}</td>
+                    </tr>`;
+                }
+            });
+            reporteHTML += '</tbody></table>';
+            reporteHTML += `<p><b>Total Crédito Estatutario:</b> ${totalCreditoEstatutario}</p>`;
+
+          // Deudores de Crédito FAV
+          let totalCreditoFAV = 0;
+            reporteHTML += '<h3>Deudores de Crédito F.A.V.</h3>';
+            reporteHTML += '<table><thead><tr><th>Nombre</th><th>Cédula</th><th>Saldo Pendiente</th><th>N° Cuotas</th><th>Monto Cuota</th><th>Abonado</th><th>Fecha Crédito</th></tr></thead><tbody>';
+            data.forEach(socio => {
+                if (parseFloat(socio["saldo-pendiente-fav"]) > 0) {
+                    const saldoPendiente = parseFloat(socio["saldo-pendiente-fav"]);
+                    totalCreditoFAV += saldoPendiente;
+                    reporteHTML += `<tr>
+                        <td>${socio.nombre}</td>
+                        <td>${socio.cedula}</td>
+                        <td>${saldoPendiente}</td>
+                        <td>${socio["cuota-credito-fav"]}</td>
+                        <td>${socio["monto-cuota-credito-fav"]}</td>
+                        <td>${parseFloat(socio["credito-fav"]) - saldoPendiente}</td>
+                        <td>${socio["fecha-solicitud-credito-fav"]}</td>
+                    </tr>`;
+                }
+            });
+            reporteHTML += '</tbody></table>';
+            reporteHTML += `<p><b>Total Crédito F.A.V.:</b> ${totalCreditoFAV}</p>`;
+
+            abrirVentanaReporte(reporteHTML);
+        });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function generarReporteFunerarias() {
+    fetch('https://caprofuptet.cromstudio.com.ve/sistema/datos.json')
+      .then(response => response.json())
+      .then(data => {
+            const funerarias = {};
+            let totalBolivares = 0;
+            let totalDolares = 0;
+            data.forEach(socio => {
+                const funeraria = socio["empresa-funeraria"];
+                if (funeraria) {
+                    funerarias[funeraria] = (funerarias[funeraria] || {
+                        socios: 0,
+                        bolivares: 0,
+                        dolares: 0
+                    });
+                    funerarias[funeraria].socios++;
+                    funerarias[funeraria].bolivares += parseFloat(socio["cuota-quincenal-funeraria-bolivares"] || 0);
+                    funerarias[funeraria].dolares += parseFloat(socio["cuota-mensual-funeraria-dolares"] || 0);
+                    totalBolivares += parseFloat(socio["cuota-quincenal-funeraria-bolivares"] || 0);
+                    totalDolares += parseFloat(socio["cuota-mensual-funeraria-dolares"] || 0);
+                }
+            });
+
+            let reporteHTML = '<h2>Reporte de Funerarias</h2>';
+            for (let funeraria in funerarias) {
+                reporteHTML += `<p><b>${funeraria}:</b> ${funerarias[funeraria].socios} socios inscritos</p>`;
+                reporteHTML += `<p><b>Total Recaudado (Bs):</b> ${funerarias[funeraria].bolivares}</p>`;
+                reporteHTML += `<p><b>Total Recaudado ($):</b> ${funerarias[funeraria].dolares}</p>`;
+            }
+
+            // Mostrar totales generales
+            reporteHTML += `<hr>`;
+            reporteHTML += `<p><b>Total General Recaudado (Bs):</b> ${totalBolivares}</p>`;
+            reporteHTML += `<p><b>Total General Recaudado ($):</b> ${totalDolares}</p>`;
+
+            abrirVentanaReporte(reporteHTML);
+        });
+}
+
+
+
+
+
+    </script>
+</body>
+</html>

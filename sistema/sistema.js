@@ -267,16 +267,22 @@ function showForm(creditType, user) {
     calculateInstallments();
 }
 
-// Calcular cuota mensual y quincenal
 function calculateInstallments() {
-    const calculatedAmount = parseFloat(document.getElementById('calculatedAmount').value) || 0;
-    const months = parseInt(document.getElementById('months').value) || 6;
-    const totalAmount = calculatedAmount * 1.163; // Aplicar el 12% adicional
-    const monthlyQuota = (totalAmount / months).toFixed(2);
-    const biweeklyQuota = (monthlyQuota / 2).toFixed(2);
+  const monto = parseFloat(document.getElementById('calculatedAmount').value) || 0;
+  const months = parseInt(document.getElementById('months').value) || 6; // Valor por defecto: 6 meses
 
-    document.getElementById('monthlyQuota').value = `Bs ${monthlyQuota}`;
-    document.getElementById('biweeklyQuota').value = `Bs ${biweeklyQuota}`;
+  // a) Gasto bancario
+  const gastoBancario = monto * 0.03 / months;
+
+  // b) Cuota capital e intereses
+  const cuota = (monto * 0.01 * months) + monto / months;
+
+  // c) Cuota mensual y quincenal
+  const cuotaMensual = (cuota + gastoBancario) * 1.04;
+  const cuotaQuincenal = cuotaMensual / 2;
+
+  document.getElementById('monthlyQuota').value = `Bs ${cuotaMensual.toFixed(2)}`;
+  document.getElementById('biweeklyQuota').value = `Bs ${cuotaQuincenal.toFixed(2)}`;
 }
 
 // Cerrar el modal
