@@ -275,7 +275,7 @@ function calculateInstallments() {
   const gastoBancario = monto * 0.03 / months;
 
   // b) Cuota capital e intereses
-  const cuota = (monto * 0.01 * months) + monto / months;
+  const cuota = ((monto * 0.01 * months) + monto) / months;
 
   // c) Cuota mensual y quincenal
   const cuotaMensual = (cuota + gastoBancario) * 1.04;
