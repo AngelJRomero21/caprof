@@ -279,7 +279,7 @@ function calculateInstallments() {
 
   // c) Cuota mensual y quincenal
   const cuotaMensual = (cuota + gastoBancario) * 1.04;
-  const cuotaQuincenal = cuotaMensual / 2;
+  const cuotaQuincenal = (cuota + gastoBancario) * 1.08 / 2;
 
   document.getElementById('monthlyQuota').value = `Bs ${cuotaMensual.toFixed(2)}`;
   document.getElementById('biweeklyQuota').value = `Bs ${cuotaQuincenal.toFixed(2)}`;
