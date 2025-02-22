@@ -371,7 +371,7 @@ function calcularFav() {
   const cuotaMensual = (valorA + valorB + valorC + valorD + valorE) * 1.04;
 
   // Calcular la cuota quincenal
-  const cuotaQuincenal = cuotaMensual / 2;
+  const cuotaQuincenal = ((valorA + valorB + valorC + valorD + valorE) * 1.08) / 2;
 
   // Mostrar las cuotas en el formulario
   document.getElementById("cuotaMensual").value = `$ ${cuotaMensual.toFixed(2)}`;
