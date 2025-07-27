@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAPROFUPTET - Caja de Ahorro de los Profesores de la Universidad Politecnica Territorial del Estado Trujillo "Mario Briceño Iragorry"</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" xintegrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:url" content="https://caprofuptet.cromstudio.com.ve/sistema/" />
     <meta property="og:title" content="CAJA DE AHORRO DE LOS PROFESORES DE LA UNIVERSIDAD POLITECNICA TERRITORIAL DEL ESTADO TRUJILLO" />
     <meta property="og:description" content="CAPROF-UPTET" />
     <meta property="og:image" content="https://i.imgur.com/AlOKrDB.png" />
-
-
-
-
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L419MTZYJQ"></script>
@@ -30,634 +29,391 @@
 </script>
 
     
-   
-   
-   <style>
+    <style>
         body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #f5f6fa;
-            color: #333;
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #343a40; /* Dark text color */
         }
-
-        .navbar {
-            background-color: #0d6efd;
+        .bg-gradient-blue {
+            background: linear-gradient(to right, #007bff, #0056b3); /* Blue gradient for hero/navbar */
         }
-
-        .navbar-brand {
-            font-weight: bold;
-            color: #fff;
+        .section-title {
+            color: #007bff; /* Primary blue for titles */
         }
-
-        .nav-link {
-            color: #fff;
+        .card-hover-effect:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        .pdf-link {
             transition: color 0.3s ease;
         }
-
-        .nav-link:hover {
-            color: #dcdcdc;
+        .pdf-link:hover {
+            color: #0056b3;
         }
-
-        #hero {
-            background-image: url('https://i.imgur.com/Pub7n31.jpeg');
-            background-size: cover;
-            background-position: center;
-            color: white;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-            padding: 120px 0;
-            text-align: center;
-        }
-
-        #hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        #hero p {
-            font-size: 1.2rem;
-        }
-
-        section {
-            padding: 60px 20px;
-        }
-
-        section h2 {
-            font-weight: bold;
-            margin-bottom: 30px;
-            text-align: center;
-            color: #0d6efd;
-        }
-
-        section p {
-            text-align: center;
-        }
-
-        .card {
-            border: none;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        footer {
-            background-color: #0d6efd;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
-
-        footer a {
-            color: white;
-            margin: 0 10px;
-            font-size: 1.5rem;
-        }
-
-        footer a:hover {
-            color: #dcdcdc;
-        }
-
-        .pdf-list a {
-            color: #0d6efd;
-            text-decoration: none;
-            text-align: center;
-
-        }
-
-        .container {
-    text-align: center; /* Centra el contenido dentro del contenedor */
-}
-
-.pdf-list {
-    display: inline-block; /* Hace que la lista se comporte como un bloque en línea */
-    text-align: left; /* Alinea el texto de la lista a la izquierda */
-}
-
-        ul {
-            display: flex;
-    flex-direction: column; /* Establecemos la dirección de los elementos como columna */
-    justify-content: center; /* Centra los elementos verticalmente */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-    
-        }
-
-        .contact-info  {
-            display: flex;
-    flex-direction: column; /* Establecemos la dirección de los elementos como columna */
-    justify-content: center; /* Centra los elementos verticalmente */
-    align-items: flex-start; /* Alinea los elementos a la izquierda */
-    
-        }
-
-        .informacion  {
-            display: flex;
-            flex-direction: column; /* Establecemos la dirección de los elementos como columna */
-            justify-content: center; /* Centra los elementos verticalmente */
-            align-items: flex-start; /* Alinea los elementos a la izquierda */
-    
-        }
-
-        .galeria-imagenes img {
+        /* Custom wave for hero section */
+        .wave-svg {
+            position: absolute;
+            bottom: 0;
             width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
+            height: 150px; /* Adjust height as needed */
+            overflow: hidden;
         }
-
-        .galeria-imagenes img:hover {
-            transform: scale(1.05);
+        .wave-svg path {
+            fill: #f8f9fa; /* Match body background */
         }
-
-        .service-card {
-            background-color: #ffffff;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-info p {
-            margin: 0;
-        }
-
-
-
-        /* Header */
-
-header {
-    width: 100%;
-    height: 600px;
-    background: #0d6efd;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(225, 95%, 50%, 0.459), hsla(194, 96%, 36%, 0.664)), url(https://i.imgur.com/Pub7n31.jpeg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(225, 95%, 50%, 0.459), hsla(194, 96%, 36%, 0.664)), url(https://i.imgur.com/Pub7n31.jpeg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-}
-
-nav{
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-
-nav > a{
-    color:#fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-nav > a:hover{
-    text-decoration: underline;
-}
-
-header .textos-header{
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.textos-header h1{
-    font-size: 50px;
-    color:#fff;
-}
-
-.textos-header h2{
-    font-size: 30px;
-    font-weight: 300;
-    color:#fff;
-}
-
-.wave{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-/* About us */
-
-
-@media screen and (max-width:900px){
-    header{
-        background-position: center;
-    }
-}
-
-@media screen and (max-width:500px){
-    nav{
-        text-align: center;
-        padding: 30px 0 0 0;
-    }
-
-    nav > a{
-        margin-right: 5px;
-    }
-
-    .textos-header h1{
-        font-size: 35px;
-    }
-
-    .textos-header h2{
-        font-size: 20px;
-    }
-}
     </style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">CAPROFUPTET</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/#informacion">¿Quiénes Somos?</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/#servicios">Servicios</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/tienda/">Tienda Virtual</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/#rifas">Rifas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://caprofuptet.cromstudio.com.ve/contacto/">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-outline-light" href="https://caprofuptet.cromstudio.com.ve/sistema/">Acceso</a></li>
-                </ul>
+<body class="antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-gradient-blue p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-white text-2xl font-bold rounded-md px-2 py-1" href="#">CAPROFUPTET</a>
+            <div class="md:hidden">
+                <button id="navbar-toggle" class="text-white focus:outline-none">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div id="navbar-menu" class="hidden md:flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 items-center">
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="#inicio">Inicio</a>
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="#quienes-somos">Nosotros</a>
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="#servicios">Servicios</a>
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="https://sicac.cromstudio.com.ve/tienda/" target="_blank">Tienda Virtual</a>
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="#rifas">Rifas</a>
+                <a class="text-white hover:text-gray-200 transition duration-300 py-2 md:py-0 rounded-md px-2" href="https://caprofuptet.cromstudio.com.ve/contacto/" target="_blank">Contacto</a>
+                <a class="bg-white text-blue-600 font-semibold py-2 px-6 rounded-full shadow-md hover:bg-gray-100 transition duration-300 mt-4 md:mt-0" href="https://sicac.cromstudio.com.ve/sistema/" target="_blank">Acceso</a>
             </div>
         </div>
     </nav>
 
-    <main>
-        <header>
-            <section class="textos-header">
-                <h1>Bienvenido a CAPROF-UPTET</h1>
-                <br>
-                <h2>Caja de Ahorro de los Profesores de la Universidad Politécnica Territorial del Estado Trujillo "Mario Briceño Iragorry"</h2>
-            </section>
-            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                    style="height: 100%; width: 100%;">
-                    <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                        style="stroke: none; fill: #fff;"></path>
-                </svg></div>
-        </header>
+    <!-- Hero Section -->
+    <header id="inicio" class="relative bg-cover bg-center text-white py-32 md:py-48 flex items-center justify-center rounded-b-xl shadow-lg" style="background-image: url('https://i.imgur.com/Pub7n31.jpeg');">
+        <!-- Overlay for better text readability -->
+        <div class="absolute inset-0 bg-black opacity-60 rounded-b-xl"></div>
+        <div class="container mx-auto text-center relative z-10 px-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 drop-shadow-lg">
+                Bienvenido a <span class="text-blue-300">CAPROF-UPTET</span>
+            </h1>
+            <p class="text-xl md:text-2xl font-light mb-8 drop-shadow-md">
+                Caja de Ahorro de los Profesores de la Universidad Politécnica Territorial del Estado Trujillo "Mario Briceño Iragorry"
+            </p>
+            <a href="#servicios" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                Descubre Nuestros Servicios
+            </a>
+        </div>
+        <!-- Wave SVG -->
+        <div class="wave-svg">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path>
+            </svg>
+        </div>
+    </header>
 
-        <section  id="informacion">
-            <div class="container">
-                <h2>¿Quiénes Somos?</h2>
-                <div class="informacion">
-                    <p>Somos una organización sin fines de lucro orientado a fomentar el ahorro sistemático, así como la formación de hábitos de responsabilidad financiera y previsión social de todos sus asociados. Procurando brindarles facilidades para la adquisición de distintos bienes y beneficios socioeconómicos, enmarcados en la Ley de Cajas de Ahorro, Fondos de Ahorro y Asociaciones de Ahorro Similares, así como en los Estatutos Vigentes, Reglamentos y Resoluciones; a fin de contribuir a elevar el nivel de vida y bienestar de nuestros asociados y sus grupos familiares. Con nuestros programas personalizados y beneficios exclusivos, podrás ahorrar de manera constante y segura.</p>
-                    <p><strong>Misión:</strong> Fomentar el ahorro sistemático y brindar apoyo financiero a nuestros miembros.</p>
-                    <p><strong>Visión:</strong> Ser una Caja de Ahorros líder en el país, reconocida por su solidez y compromiso con la comunidad educativa.</p>    
-                </div>
-                </div>
+    <main class="container mx-auto mt-12 px-4">
+        <!-- Quienes Somos Section -->
+        <section id="quienes-somos" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-8 section-title">¿Quiénes Somos?</h2>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed text-justify px-4">
+                <p class="mb-6">Somos una organización sin fines de lucro orientada a fomentar el ahorro sistemático, así como la formación de hábitos de responsabilidad financiera y previsión social de todos sus asociados. Procurando brindarles facilidades para la adquisición de distintos bienes y beneficios socioeconómicos, enmarcados en la Ley de Cajas de Ahorro, Fondos de Ahorro y Asociaciones de Ahorro Similares, así como en los Estatutos Vigentes, Reglamentos y Resoluciones; a fin de contribuir a elevar el nivel de vida y bienestar de nuestros asociados y sus grupos familiares. Con nuestros programas personalizados y beneficios exclusivos, podrás ahorrar de manera constante y segura.</p>
+                <p class="mb-4 font-semibold text-blue-600">Misión:</p>
+                <p class="mb-6">Fomentar el ahorro sistemático y brindar apoyo financiero a nuestros miembros.</p>
+                <p class="mb-4 font-semibold text-blue-600">Visión:</p>
+                <p>Ser una Caja de Ahorros líder en el país, reconocida por su solidez y compromiso con la comunidad educativa.</p>
+            </div>
         </section>
 
-        <section id="servicios">
-            <div class="container">
-                <h2>Nuestros Servicios</h2>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="service-card">
-                            <h5 class="card-title">Caja de Ahorros</h5>
-                            <p class="card-text">Servicios para profesores.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-card">
-                            <h5 class="card-title">Ahorros Sistemáticos</h5>
-                            <p class="card-text">Planes de ahorro.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-card">
-                            <h5 class="card-title">Apoyo Financiero</h5>
-                            <p class="card-text">Soluciones personalizadas.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="service-card">
-                            <h5 class="card-title">Financiamiento</h5>
-                            <p class="card-text">Prestamos y Cooperativas</p>
-                        </div>
-                    </div>
+        <!-- Nuestros Servicios Section -->
+        <section id="servicios" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <i class="fas fa-university text-5xl text-blue-500 mb-4"></i>
+                    <h5 class="text-xl font-semibold mb-2">Caja de Ahorros</h5>
+                    <p class="text-gray-600">Servicios financieros especializados para profesores.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <i class="fas fa-piggy-bank text-5xl text-green-500 mb-4"></i>
+                    <h5 class="text-xl font-semibold mb-2">Ahorros Sistemáticos</h5>
+                    <p class="text-gray-600">Planes de ahorro flexibles y seguros para tu futuro.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <i class="fas fa-hand-holding-usd text-5xl text-yellow-500 mb-4"></i>
+                    <h5 class="text-xl font-semibold mb-2">Apoyo Financiero</h5>
+                    <p class="text-gray-600">Soluciones financieras personalizadas a tu medida.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <i class="fas fa-coins text-5xl text-purple-500 mb-4"></i>
+                    <h5 class="text-xl font-semibold mb-2">Financiamiento</h5>
+                    <p class="text-gray-600">Préstamos y cooperativas para tus proyectos.</p>
                 </div>
             </div>
         </section>
 
-
-        <section id="planes-funerarios">
-            <div class="container">
-                <h2>Planes funerarios</h2>
-                <p>Actualmente, CAPROFUPTET ofrece este servicio mediante tres agencias:</p>
-
-                <div class="container my-5">
-                    <div class="row g-4">
-                        <div class="col-md-4">
-                            <div class="card plan-card">
-                                <div class="card-body">
-                                    <h5 class="card-title">SESPRESVALCA</h5>
-                                    <p class="card-text">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.
-                                    </p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" class="btn btn-primary">Ver Detalles</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card plan-card">
-                                <div class="card-body">
-                                    <h5 class="card-title">SOVENPFA</h5>
-                                    <p class="card-text">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.
-                                    </p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" class="btn btn-primary">Ver Detalles</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card plan-card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Servicios de Previsión Las Américas</h5>
-                                    <p class="card-text">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.
-                                    </p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" class="btn btn-primary">Ver Detalles</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Planes Funerarios Section -->
+        <section id="planes-funerarios" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Planes Funerarios</h2>
+            <p class="text-center text-lg text-gray-700 mb-8 px-4">Actualmente, CAPROFUPTET ofrece este servicio mediante tres agencias aliadas:</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">SESPRESVALCA</h5>
+                    <p class="text-gray-600 mb-6">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" target="_blank" class="btn-primary inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md">Ver Detalles</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">SOVENPFA</h5>
+                    <p class="text-gray-600 mb-6">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" target="_blank" class="btn-primary inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md">Ver Detalles</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">Servicios de Previsión Las Américas</h5>
+                    <p class="text-gray-600 mb-6">Esta empresa ofrece servicio funerario y cremación de nivel básico a nivel regional.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/funeraria/" target="_blank" class="btn-primary inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md">Ver Detalles</a>
                 </div>
             </div>
         </section>
 
-        <section id="tienda-virtual">
-            <div class="container">
-                <h2>Tienda Virtual</h2>
-                <p>Visita la tienda virtual y compra nuestros productos a credito.</p>
-                <a href="https://caprofuptet.cromstudio.com.ve/tienda/" class="btn btn-primary">Visitar</a>
-            </div>
+        <!-- Tienda Virtual Section -->
+        <section id="tienda-virtual" class="py-16 bg-blue-50 rounded-xl shadow-md mb-12 text-center">
+            <h2 class="text-4xl font-bold mb-6 section-title">Tienda Virtual</h2>
+            <p class="text-lg text-gray-700 mb-8 px-4">Visita nuestra tienda virtual y adquiere productos a crédito con facilidades exclusivas para asociados.</p>
+            <a href="https://caprofuptet.cromstudio.com.ve/tienda/" target="_blank" class="btn-primary inline-block py-3 px-8 rounded-full text-white font-semibold shadow-md transform hover:scale-105">
+                Explorar Tienda
+            </a>
         </section>
 
-        <section id="prestamos">
-            <div class="container">
-                <h2>Prestamos</h2>
-                <p>Información sobre los prestamos y creditos que ofrece CAPROFUPTET.</p>
-                <a href="https://caprofuptet.cromstudio.com.ve/prestamos/" class="btn btn-primary">Más Información</a>
-            </div>
+        <!-- Prestamos Section -->
+        <section id="prestamos" class="py-16 bg-blue-50 rounded-xl shadow-md mb-12 text-center">
+            <h2 class="text-4xl font-bold mb-6 section-title">Préstamos y Créditos</h2>
+            <p class="text-lg text-gray-700 mb-8 px-4">Descubre las opciones de préstamos y créditos que CAPROFUPTET tiene para ti, con condiciones favorables y adaptadas a tus necesidades.</p>
+            <a href="https://caprofuptet.cromstudio.com.ve/prestamos/" target="_blank" class="btn-primary inline-block py-3 px-8 rounded-full text-white font-semibold shadow-md transform hover:scale-105">
+                Más Información
+            </a>
         </section>
 
-        <section id="rifas">
-            <div class="container">
-                <h2>Rifas</h2>
-                <p>Conoce nuestros planes publicitarios y cómo podemos colaborar.</p>
-                <div class="container my-5">
-                    <div class="row g-4">
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Rifas Actuales</h5>
-                                    <p class="card-text">Participa en nuestras rifas activas y gana premios increíbles.</p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" class="btn btn-success">Participar Ahora</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Rifas Pasadas</h5>
-                                    <p class="card-text">Descubre los ganadores y momentos destacados de rifas anteriores.</p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" class="btn btn-secondary">Ver Resultados</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ganadores</h5>
-                                    <p class="card-text">Conoce a los afortunados ganadores de nuestras rifas.</p>
-                                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" class="btn btn-info">Ver Ganadores</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <!-- Rifas Section -->
+        <section id="rifas" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Nuestras Rifas</h2>
+            <p class="text-center text-lg text-gray-700 mb-8 px-4">Participa y gana increíbles premios en nuestras rifas exclusivas para asociados.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">Rifas Actuales</h5>
+                    <p class="text-gray-600 mb-6">No te pierdas la oportunidad de ganar en nuestras rifas activas.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" target="_blank" class="bg-green-500 hover:bg-green-600 inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md transition duration-300">Participar Ahora</a>
                 </div>
-            
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">Rifas Pasadas</h5>
+                    <p class="text-gray-600 mb-6">Revisa los resultados y momentos destacados de rifas anteriores.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" target="_blank" class="bg-gray-600 hover:bg-gray-700 inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md transition duration-300">Ver Resultados</a>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm text-center card-hover-effect transition duration-300">
+                    <h5 class="text-2xl font-semibold mb-4 text-blue-600">Ganadores Destacados</h5>
+                    <p class="text-gray-600 mb-6">Conoce a los afortunados ganadores de nuestras últimas rifas.</p>
+                    <a href="https://caprofuptet.cromstudio.com.ve/rifas/" target="_blank" class="bg-blue-400 hover:bg-blue-500 inline-block py-2 px-6 rounded-full text-white font-semibold shadow-md transition duration-300">Ver Ganadores</a>
+                </div>
+            </div>
         </section>
 
+        <!-- Publicidad Section -->
+        <section id="publicidad" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Nuestros Aliados</h2>
+            <p class="text-center text-lg text-gray-700 mb-8 px-4">Trabajamos con empresas líderes para ofrecerte los mejores beneficios y servicios.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <a href="https://www.instagram.com/splasamericas/" target="_blank">
+                        <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/SERVICIOS-DE-PREVISION-LAS-AMERICAS.jpg" alt="Servicios de Previsión Las Américas" class="w-full h-48 object-cover rounded-t-lg transition-transform duration-300 group-hover:scale-105">
+                        <div class="p-4 bg-gray-50 text-center rounded-b-lg">
+                            <h5 class="text-xl font-semibold text-blue-600">Servicios de Previsión Las Américas</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <a href="https://www.instagram.com/ipsmariobriceno/" target="_blank">
+                        <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/IPS-PUBLICIDAD.jpg" alt="Instituto de Previsión Social Mario Briceño Iragorry" class="w-full h-48 object-cover rounded-t-lg transition-transform duration-300 group-hover:scale-105">
+                        <div class="p-4 bg-gray-50 text-center rounded-b-lg">
+                            <h5 class="text-xl font-semibold text-blue-600">IPS Mario Briceño Iragorry</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <a href="https://cromstudio.com.ve/" target="_blank">
+                        <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/crom-studio.jpg" alt="Crom Studio" class="w-full h-48 object-cover rounded-t-lg transition-transform duration-300 group-hover:scale-105">
+                        <div class="p-4 bg-gray-50 text-center rounded-b-lg">
+                            <h5 class="text-xl font-semibold text-blue-600">Crom Studio</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-        <section id="galeria" class="galeria-imagenes">
-            <div class="container">
-                <h2>Publicidad</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href="https://www.instagram.com/splasamericas/">
-                            <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/SERVICIOS-DE-PREVISION-LAS-AMERICAS.jpg" alt="Servicios de Previsión Las Américas" class="img-fluid">
+        <!-- Documentos y Recursos Section -->
+        <section id="documentos-recursos" class="py-16 bg-blue-50 rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Documentos y Recursos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+                <!-- Actas de Asamblea -->
+                <div class="bg-white p-6 rounded-lg shadow-sm card-hover-effect transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Actas de Asamblea</h3>
+                    <p class="text-gray-700 mb-4">Descarga y consulta las últimas actas de asambleas de CAPROFUPTET.</p>
+                    <ul class="space-y-3">
+                        <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2074.pdf" target="_blank" class="pdf-link text-blue-600 hover:underline flex items-center"><i class="fas fa-file-pdf mr-2 text-red-500"></i> Acta de Asamblea Extraordinaria N° 74</a></li>
+                        <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2073.pdf" target="_blank" class="pdf-link text-blue-600 hover:underline flex items-center"><i class="fas fa-file-pdf mr-2 text-red-500"></i> Acta de Asamblea Ordinaria N° 73</a></li>
+                        <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2072.pdf" target="_blank" class="pdf-link text-blue-600 hover:underline flex items-center"><i class="fas fa-file-pdf mr-2 text-red-500"></i> Acta de Asamblea Extraordinaria N° 72</a></li>
+                    </ul>
+                </div>
+
+                <!-- Planillas -->
+                <div class="bg-white p-6 rounded-lg shadow-sm card-hover-effect transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Planillas</h3>
+                    <p class="text-gray-700 mb-4">Descarga las planillas necesarias para tus trámites y solicitudes.</p>
+                    <ul class="space-y-3">
+                        <li><a href="planilla1.pdf" target="_blank" class="pdf-link text-blue-600 hover:underline flex items-center"><i class="fas fa-file-pdf mr-2 text-red-500"></i> Planilla de Solicitud de Ahorro</a></li>
+                        <!-- Add more planillas as needed -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Órganos de Administración y Control Section -->
+        <section id="organos-de-administracion-y-control" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Órganos de Administración y Control</h2>
+            <div class="max-w-2xl mx-auto text-center px-4">
+                <p class="text-lg text-gray-700 mb-6">Nuestra gestión es transparente y está supervisada por los siguientes organismos:</p>
+                <ul class="list-none p-0 m-0 space-y-4">
+                    <li>
+                        <a href="https://www.sudeca.gob.ve/" target="_blank" class="text-blue-600 hover:underline text-xl font-medium flex items-center justify-center">
+                            <i class="fas fa-external-link-alt mr-3 text-blue-500"></i> SUPERINTENDENCIA DE CAJAS DE AHORRO (SUDECA)
                         </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Monte Pío & Mutuo Auxilio Section -->
+        <section id="beneficios-solidarios" class="py-16 bg-blue-50 rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Beneficios Solidarios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+                <div class="bg-white p-6 rounded-lg shadow-sm card-hover-effect transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Monte Pío</h3>
+                    <p class="text-gray-700">Es el aporte solidario que cada asociado contribuye al momento del fallecimiento de un asociado titular. La cantidad total recabada es entregada a los familiares declarados como herederos universales del asociado fallecido, brindando un apoyo fundamental en momentos difíciles.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm card-hover-effect transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Mutuo Auxilio</h3>
+                    <p class="text-gray-700">Es el aporte solidario que cada asociado contribuye al momento del fallecimiento de un familiar directo de un asociado. La cantidad total recabada es entregada al asociado titular de la caja, ofreciendo un respaldo económico en situaciones de pérdida.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería de Imágenes Section -->
+        <section id="galeria" class="py-16 bg-white rounded-xl shadow-md mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10 section-title">Nuestra Galería</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <img src="https://caprofuptet.cromstudio.com.ve/imagenes/fondosistema.webp" alt="Imagen 1 de la galería" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                        <p class="text-white text-lg font-semibold">Instalaciones de CAPROFUPTET</p>
                     </div>
-                    <div class="col-md-4">
-                        <a href="https://www.instagram.com/ipsmariobriceno/">
-                            <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/IPS-PUBLICIDAD.jpg" alt="Instituto de Previsión Social Mario Briceño Iragorry" class="img-fluid">
-                        </a>                    
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <img src="https://i.imgur.com/Pub7n31.jpeg" alt="Imagen 2 de la galería" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                        <p class="text-white text-lg font-semibold">Miembros de la Junta Directiva</p>
                     </div>
-                    <div class="col-md-4">
-                        <a href="https://cromstudio.com.ve/">
-                            <img src="https://caprofuptet.cromstudio.com.ve/imagenes/publicidad/crom-studio.jpg" alt="Crom Studio" class="img-fluid">
-                        </a>                    
+                </div>
+                <div class="relative overflow-hidden rounded-lg shadow-lg group card-hover-effect transition duration-300">
+                    <img src="https://i.imgur.com/Y5dZpeR.jpeg" alt="Imagen 3 de la galería" class="w-full h-64 object-cover rounded-lg transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                        <p class="text-white text-lg font-semibold">Evento de la comunidad</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="comunicados">
-            <div class="container">
-                <h2>Actas de Asamblea</h2>
-                <p>Descarga y consulta las ultimas actas de asambleas de CAPROFUPTET.</p>
-                <ul class="pdf-list">
-                    <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2074.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Acta de Asamblea Extraordinaria N° 74</a></li>
-                    <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2073.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Acta de Asamblea Ordinaria N° 73</a></li>
-                    <li><a href="https://caprofuptet.cromstudio.com.ve/ACTA%2072.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Acta de Asamblea Extraordinaria N° 72</a></li>
-                </ul>
-            </div>
-        </section>
-
-  
-
-        <section id="planillas">
-            <div class="container">
-                <h2>Planillas</h2>
-                <p>Descarga las planillas necesarias para tus trámites.</p>
-                <ul class="pdf-list">
-                    <li><a href="planilla1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Planilla de Solicitud de Ahorro</a></li>
-                </ul>
-            </div>
-        </section>
-
-
-        <!--
-        <section id="noticias">
-            <div class="container">
-                <h2>Noticias</h2>
-                <p>Entérate de las últimas noticias relacionadas con la CAPROFUPTET.</p>
-                <ul class="pdf-list">
-                    <li><a href="noticia1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Última Noticia Importante</a></li>
-                </ul>
-            </div>
-        </section>
-
-       
-     
-        <section id="sistema-online">
-            <div class="container">
-                <h2>Sistema Online</h2>
-                <p>Aquí se explicará el funcionamiento del sistema online, acceso, beneficios, etc.</p>
-            </div>
-        </section>
-
-        <section id="consejo-vigilancia">
-            <div class="container">
-                <h2>Consejo de Vigilancia</h2>
-                <p>Información sobre el Consejo de Vigilancia de la CAPROFUPTET.</p>
-            </div>
-        </section>
-
-        <section id="junta-directiva">
-            <div class="container">
-                <h2>Junta Directiva</h2>
-                <p>Conoce a los miembros de nuestra Junta Directiva.</p>
-            </div>
-        </section>
-
-        <section id="prestamos">
-            <div class="container">
-                <h2>Préstamos</h2>
-                <p>Información sobre los préstamos que ofrecemos.</p>
-            </div>
-        </section>
-
-        <section id="circulares">
-            <div class="container">
-                <h2>Circulares</h2>
-                <p>Revisa las circulares emitidas por nuestra organización.</p>
-                <ul class="pdf-list">
-                    <li><a href="circular1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Circular Importante</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="reglamentos">
-            <div class="container">
-                <h2>Reglamentos</h2>
-                <p>Consulta los reglamentos internos y externos aplicables.</p>
-                <ul class="pdf-list">
-                    <li><a href="reglamento1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Reglamento Interno</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="documentos-legales">
-            <div class="container">
-                <h2>Documentos Legales</h2>
-                <p>Accede a los documentos legales relacionados con la CAPROFUPTET.</p>
-                <ul class="pdf-list">
-                    <li><a href="documento1.pdf" target="_blank"><i class="fas fa-file-pdf"></i> Documento Legal Importante</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="reuniones">
-            <div class="container">
-                <h2>Reuniones y Notificaciones</h2>
-                <p>Detalles sobre reuniones y notificaciones importantes.</p>
-            </div>
-        </section>
-
-        -->
-
-
-        <section id="organos-de-administracion-y-control">
-            <div class="container">
-                <h2>Órganos de Administración y Control</h2>
-                <li><a href="https://www.sudeca.gob.ve/" target="_blank">SUPERINTENDENCIA DE CAJAS DE AHORRO (SUDECA)</a></li>
-            </div>
-        </section>
-
-        <section id="montepío">
-            <div class="container">
-                <h2>Monte Pío</h2>
-                <p>Es el aporte solidario que cada asociado contribuye al momento del fallecimiento de un asociado titular, la cantidad total recabada es entregada a familiares declarados como herederos universales del asociado fallecido.</p>
-            </div>
-        </section>
-
-
-        <section id="mutuo-auxilio">
-            <div class="container">
-                <h2>Mutuo Auxilio</h2>
-                <p>Es el aporte solidario que cada asociado contribuye al momento del fallecimiento de un familiar de un asociado, la cantidad total recabada es entregada al asociado titular de la caja.</p>
-            </div>
-        </section>
-
-
-
-
-        <section id="direccion">
-            <div class="container">
-                <h2>Contáctanos</h2>
-                <div class="contact-info">
-                    <p><strong>Dirección:</strong> Av. 6 entre calles 21 y 22, Edificio Guida, Planta Baja, Local 3, Valera, Trujillo, Venezuela</p>
-                    <p><strong>Teléfono:</strong> (0271) 231-1201 / (0271) 231-2079</p>
-                    <p><strong>WhatsApp:</strong> +58 412 989 9556</p>
-                    <p><strong>Correo:</strong> <a href="mailto:caprofuptet@gmail.com">caprofuptet@gmail.com</a></p>
-                    <p><strong>Horario:</strong> Lunes a Viernes: 8:00 AM - 3:00 PM</p>
+        <!-- Contacto Section -->
+        <section id="contacto" class="py-16 bg-blue-600 text-white rounded-xl shadow-lg mb-12">
+            <h2 class="text-4xl font-bold text-center mb-10">Contáctanos</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto px-4">
+                <div class="flex flex-col items-center md:items-start text-center md:text-left">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-map-marker-alt text-3xl mr-4 text-blue-200"></i>
+                        <p class="text-lg"><strong>Dirección:</strong> Av. 6 entre calles 21 y 22, Edificio Guida, Planta Baja, Local 3, Valera, Trujillo, Venezuela</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-phone-alt text-3xl mr-4 text-blue-200"></i>
+                        <p class="text-lg"><strong>Teléfono:</strong> (0271) 231-1201 / (0271) 231-2079</p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-whatsapp text-3xl mr-4 text-blue-200"></i>
+                        <p class="text-lg"><strong>WhatsApp:</strong> <a href="https://wa.me/584129899556" target="_blank" class="text-white hover:underline">+58 412 989 9556</a></p>
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-envelope text-3xl mr-4 text-blue-200"></i>
+                        <p class="text-lg"><strong>Correo:</strong> <a href="mailto:caprofuptet@gmail.com" class="text-white hover:underline">caprofuptet@gmail.com</a></p>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-clock text-3xl mr-4 text-blue-200"></i>
+                        <p class="text-lg"><strong>Horario:</strong> Lunes a Viernes: 8:00 AM - 3:00 PM</p>
+                    </div>
                 </div>
-            </div>
-        </section>
-
-
-
-        <section id="galeria" class="galeria-imagenes">
-            <div class="container">
-                <h2>Nuestra Galería</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="https://caprofuptet.cromstudio.com.ve/imagenes/fondosistema.webp" alt="Imagen 1" class="img-fluid">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://i.imgur.com/Pub7n31.jpeg" alt="Imagen 2" class="img-fluid">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://i.imgur.com/Y5dZpeR.jpeg" alt="Imagen 3" class="img-fluid">
+                <div class="flex justify-center items-center">
+                    <!-- Placeholder for a map or contact form if desired -->
+                    <div class="w-full h-64 bg-blue-700 rounded-lg flex items-center justify-center shadow-inner">
+                        <p class="text-blue-300 text-xl">Ubicación en el mapa (próximamente)</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    
 
-    <footer class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>&copy; 2025 (CAPROFUPTET), RIF J-30339150-8. Todos los derechos reservados.</p>
-                </div>
-                <div class="col-md-6 text-end social-icons">
-                    <a href="https://www.instagram.com/caprofuptet/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://wa.me/584129899556" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://cromstudio.com.ve/" target="_blank"><i class="fa-solid fa-code"></i></a>
-                </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 rounded-t-xl shadow-inner">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 text-center md:text-left">
+            <div class="mb-4 md:mb-0">
+                <p class="text-sm">&copy; 2025 (CAPROFUPTET), RIF J-30339150-8. Todos los derechos reservados.</p>
+            </div>
+            <div class="flex space-x-6">
+                <a href="https://www.instagram.com/caprofuptet/" target="_blank" class="text-white hover:text-blue-400 transition duration-300">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+                <a href="https://wa.me/584129899556" target="_blank" class="text-white hover:text-green-400 transition duration-300">
+                    <i class="fab fa-whatsapp text-2xl"></i>
+                </a>
+                <a href="https://cromstudio.com.ve/" target="_blank" class="text-white hover:text-purple-400 transition duration-300">
+                    <i class="fa-solid fa-code text-2xl"></i>
+                </a>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu after clicking a link
+                if (window.innerWidth < 768) {
+                    document.getElementById('navbar-menu').classList.add('hidden');
+                }
+            });
+        });
+
+        // Toggle mobile navigation menu
+        document.getElementById('navbar-toggle').addEventListener('click', function() {
+            document.getElementById('navbar-menu').classList.toggle('hidden');
+        });
+    </script>
 </body>
 </html>
